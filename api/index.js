@@ -5,20 +5,33 @@ const app = express();
 app.use(express.json());
 require('dotenv').config();
 
+
+
+
+//========================================================================== [ /api ] ===========================================================
 app.get('/api', (req, res) => {
     res.status(200).json({ message: 'Hello from Vercel!' });
 });
 
-app.get("/player", async (req, res) => {
-    const apiKey = process.env.BRAWL_STARS_API_KEY;
-    const { playerTag } = req.query;
 
-    if (!playerTag) {
+
+
+
+
+//========================================================================== [ /brawlers ] ===========================================================
+app.get("/brawlers", async (req, res) => {
+
+    const apiKey = process.env.BRAWL_STARS_API_KEY;
+    const { playertag } = req.query;
+
+    if (!playertag) {
         return res.status(400).json({ error: 'Player tag is required' });
     }
 
+
+
     try {
-        const response = await fetch(`https://api.brawlstars.com/v1/players/%23${encodeURIComponent(playerTag)}`, {
+        const response = await fetch(`https://api.brawlstars.com/v1/players/%23${encodeURIComponent(playertag)}`, {
             headers: {
                 Authorization: `Bearer ${apiKey}`,
                 'Content-Type': 'application/json'
@@ -31,10 +44,18 @@ app.get("/player", async (req, res) => {
         }
 
         const data = await response.json();
-        res.status(200).json(data);
+        // console.log(data.brawlers)
+        res.status(200).json(data.brawlers);
     } catch (error) {
         res.status(500).json({ error: 'An error occurred while fetching player data' });
     }
 });
+
+
+
+//========================================================================== [ listen ] ===========================================================
+app.listen(4000, () => {
+    console.log("서버가 4000번 포트에서 실행 중입니다.");
+  });
 
 module.exports = app;
