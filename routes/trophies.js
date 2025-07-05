@@ -24,7 +24,7 @@ router.get('/', validatePlayerTag, async (req, res) => {
             userId = userResult.rows[0].id;
 
             // Fetch initial trophy data for ALL brawlers and save it
-            const data = await fetchBrawlStarsData(playertag.substring(1));
+            const data = await fetchBrawlStarsData(playertag);
             const brawlers = data.brawlers;
 
             for (const brawler of brawlers) {

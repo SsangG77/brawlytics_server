@@ -4,7 +4,9 @@ require('dotenv').config();
 const apiKey = process.env.BRAWL_STARS_API_KEY;
 
 const fetchBrawlStarsData = async (playertag, endpoint = '') => {
-    const url = `https://api.brawlstars.com/v1/players/%23${encodeURIComponent(playertag)}${endpoint}`;
+    // Ensure playertag does not start with # for API call, as %23 is added below
+    const cleanedPlayerTag = playertag.startsWith('#') ? playertag.substring(1) : playertag;
+    const url = `https://api.brawlstars.com/v1/players/%23${encodeURIComponent(cleanedPlayerTag)}${endpoint}`;
     const response = await fetch(url, {
         headers: {
             Authorization: `Bearer ${apiKey}`,
