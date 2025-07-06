@@ -4,8 +4,9 @@ const validatePlayerTag = (req, res, next) => {
     if (!playertag) {
         return res.status(400).json({ error: 'Player tag is required' });
     }
-    const formattedPlayerTag = '#' + playertag.toUpperCase().replace(/^#/, '');
-    res.locals.playertag = formattedPlayerTag;
+    // Remove leading # or %23, then convert to uppercase
+    const cleanedPlayerTag = playertag.replace(/^(#|%23)/i, '').toUpperCase();
+    res.locals.playertag = `#${cleanedPlayerTag}`;
     next();
 };
 

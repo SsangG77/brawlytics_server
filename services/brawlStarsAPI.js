@@ -1,7 +1,9 @@
 
 const fetch = require('cross-fetch');
 require('dotenv').config();
+
 const apiKey = process.env.BRAWL_STARS_API_KEY;
+
 
 const fetchBrawlStarsData = async (playertag, endpoint = '') => {
     // Ensure playertag does not start with # for API call, as %23 is added below
@@ -46,3 +48,4 @@ const fetchAllBrawlers = async () => {
 };
 
 module.exports = { fetchBrawlStarsData, fetchAllBrawlers };
+

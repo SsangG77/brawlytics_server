@@ -43,7 +43,7 @@ const formatDate = (battleTime) => {
 const transformBattleItem = (item) => ({
   id: randomUUID(),
   result: item.battle.result || 'showdown',
-  mode: item.battle.mode,
+  mode: item.event.mode !== "trioShowdown" ? item.battle.mode : "trioShowdown",
   mapName: item.event.map,
   date: formatDate(item.battleTime),
   teams: formatTeams(item.battle),
