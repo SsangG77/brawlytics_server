@@ -25,10 +25,24 @@ const formatTeams = (battle) => {
   }
 
   const starPlayerTag = !isShowdown && battle.starPlayer ? battle.starPlayer.tag : null;
-  return battle.teams.map(team => ({
-    id: randomUUID(),
-    member: team.map(player => formatPlayer(player, starPlayerTag)),
-  }));
+  // return battle.teams.map(team => ({ /////////////////////////////////////////////////////////////////
+  //   id: randomUUID(),
+  //   member: team.map(player => formatPlayer(player, starPlayerTag)),
+  // }));
+
+  if (battle.teams == undefined) {
+    return [
+      {
+        id: randomUUID(),
+        member: battle.players.map(player => formatPlayer(player, starPlayerTag)),
+      }
+    ];
+  } else {
+    return battle.teams.map(team => ({
+      id: randomUUID(),
+      member: team.map(player => formatPlayer(player, starPlayerTag)),
+    }));
+  }
 };
 
 // Helper function to format the date
@@ -54,6 +68,8 @@ router.get('/', validatePlayerTag, async (req, res) => {
   try {
     const { items } = await fetchBrawlStarsData(playertag, '/battlelog');
 
+    
+    
     const result = items
       .sort((a, b) => new Date(b.battleTime) - new Date(a.battleTime))
       .slice(0, 60)

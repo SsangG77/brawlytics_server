@@ -3,6 +3,7 @@ const fetch = require('cross-fetch');
 require('dotenv').config();
 
 const apiKey = process.env.BRAWL_STARS_API_KEY;
+// const apiKey = process.env.LOCAL_API_KEY;
 
 
 const fetchBrawlStarsData = async (playertag, endpoint = '') => {
