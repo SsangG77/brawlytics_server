@@ -7,7 +7,7 @@ router.get('/', validatePlayerTag, async(req, res) => {
     const { playertag } = res.locals;
     try {
         const data = await fetchBrawlStarsData(playertag);
-        const brawlersWithoutWinStreak = data.brawlers.map(({ maxWinStreak, ...rest }) => rest);
+        const brawlersWithoutWinStreak = data.brawlers.map(({ maxWinStreak, currentWinStreak, ...rest }) => rest);
         res.status(200).json(brawlersWithoutWinStreak);
         // res.status(200).json(data.brawlers);
     } catch (error) {
