@@ -7,7 +7,9 @@ router.get('/', validatePlayerTag, async(req, res) => {
     const { playertag } = res.locals;
     try {
         const data = await fetchBrawlStarsData(playertag);
-        res.status(200).json(data.brawlers);
+        const brawlersWithoutWinStreak = data.brawlers.map(({ maxWinStreak, ...rest }) => rest);
+        res.status(200).json(brawlersWithoutWinStreak);
+        // res.status(200).json(data.brawlers);
     } catch (error) {
         res.status(error.status || 500).json({ error: error.data || 'An error occurred while fetching player data' });
     }
@@ -31,3 +33,4 @@ router.get('/trophy', validatePlayerTag, async(req, res) => {
 })
 
 module.exports = router;
+
