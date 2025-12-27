@@ -1,0 +1,4660 @@
+{
+  "brawlers": [
+    {
+      "id": 16000000,
+      "name": "SHELLY",
+      "firstGadget": {
+        "name": "FAST FORWARD",
+        "image": "FAST FORWARD.png"
+      },
+      "secondGadget": {
+        "name": "CLAY PIGEONS",
+        "image": "CLAY PIGEONS.png"
+      },
+      "firstStarPower": {
+        "name": "SHELL SHOCK",
+        "image": "SHELL SHOCK.png"
+      },
+      "secondStarPower": {
+        "name": "BAND-AID",
+        "image": "BAND-AID.png"
+      },
+      "hypercharge": {
+        "name": "DOUBLE BARREL",
+        "image": "DOUBLE BARREL.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.139Z"
+    },
+    {
+      "id": 16000001,
+      "name": "COLT",
+      "firstGadget": {
+        "name": "SPEEDLOADER",
+        "image": "SPEEDLOADER.png"
+      },
+      "secondGadget": {
+        "name": "SILVER BULLET",
+        "image": "SILVER BULLET.png"
+      },
+      "firstStarPower": {
+        "name": "SLICK BOOTS",
+        "image": "SLICK BOOTS.png"
+      },
+      "secondStarPower": {
+        "name": "MAGNUM SPECIAL",
+        "image": "MAGNUM SPECIAL.png"
+      },
+      "hypercharge": {
+        "name": "DUAL WIELDING",
+        "image": "DUAL WIELDING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000002,
+      "name": "BULL",
+      "firstGadget": {
+        "name": "T-BONE INJECTOR",
+        "image": "T-BONE INJECTOR.png"
+      },
+      "secondGadget": {
+        "name": "STOMPER",
+        "image": "STOMPER.png"
+      },
+      "firstStarPower": {
+        "name": "BERSERKER",
+        "image": "BERSERKER.png"
+      },
+      "secondStarPower": {
+        "name": "TOUGH GUY",
+        "image": "TOUGH GUY.png"
+      },
+      "hypercharge": {
+        "name": "JAWS OF STEEL",
+        "image": "JAWS OF STEEL.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000003,
+      "name": "BROCK",
+      "firstGadget": {
+        "name": "ROCKET LACES",
+        "image": "ROCKET LACES.png"
+      },
+      "secondGadget": {
+        "name": "ROCKET FUEL",
+        "image": "ROCKET FUEL.png"
+      },
+      "firstStarPower": {
+        "name": "MORE ROCKETS!",
+        "image": "MORE ROCKETS!.png"
+      },
+      "secondStarPower": {
+        "name": "ROCKET NO. 4",
+        "image": "ROCKET NO. 4.png"
+      },
+      "hypercharge": {
+        "name": "ROCKET BARRAGE",
+        "image": "ROCKET BARRAGE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000004,
+      "name": "RICO",
+      "firstGadget": {
+        "name": "MULTIBALL LAUNCHER",
+        "image": "MULTIBALL LAUNCHER.png"
+      },
+      "secondGadget": {
+        "name": "BOUNCY CASTLE",
+        "image": "BOUNCY CASTLE.png"
+      },
+      "firstStarPower": {
+        "name": "SUPER BOUNCY",
+        "image": "SUPER BOUNCY.png"
+      },
+      "secondStarPower": {
+        "name": "ROBO RETREAT",
+        "image": "ROBO RETREAT.png"
+      },
+      "hypercharge": {
+        "name": "TRICK SHOT KING",
+        "image": "TRICK SHOT KING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000005,
+      "name": "SPIKE",
+      "firstGadget": {
+        "name": "POPPING PINCUSHION",
+        "image": "POPPING PINCUSHION.png"
+      },
+      "secondGadget": {
+        "name": "LIFE PLANT",
+        "image": "LIFE PLANT.png"
+      },
+      "firstStarPower": {
+        "name": "FERTILIZE",
+        "image": "FERTILIZE.png"
+      },
+      "secondStarPower": {
+        "name": "CURVEBALL",
+        "image": "CURVEBALL.png"
+      },
+      "hypercharge": {
+        "name": "BLOOMING SEASON",
+        "image": "BLOOMING SEASON.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000006,
+      "name": "BARLEY",
+      "firstGadget": {
+        "name": "STICKY SYRUP MIXER",
+        "image": "STICKY SYRUP MIXER.png"
+      },
+      "secondGadget": {
+        "name": "HERBAL TONIC",
+        "image": "HERBAL TONIC.png"
+      },
+      "firstStarPower": {
+        "name": "MEDICAL USE",
+        "image": "MEDICAL USE.png"
+      },
+      "secondStarPower": {
+        "name": "EXTRA NOXIOUS",
+        "image": "EXTRA NOXIOUS.png"
+      },
+      "hypercharge": {
+        "name": "BOTTLE-UP RAGE",
+        "image": "BOTTLE-UP RAGE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000007,
+      "name": "JESSIE",
+      "firstGadget": {
+        "name": "SPARK PLUG",
+        "image": "SPARK PLUG.png"
+      },
+      "secondGadget": {
+        "name": "RECOIL SPRING",
+        "image": "RECOIL SPRING.png"
+      },
+      "firstStarPower": {
+        "name": "ENERGIZE",
+        "image": "ENERGIZE.png"
+      },
+      "secondStarPower": {
+        "name": "SHOCKY",
+        "image": "SHOCKY.png"
+      },
+      "hypercharge": {
+        "name": "SCRAPPY 2.0",
+        "image": "SCRAPPY 2.0.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000008,
+      "name": "NITA",
+      "firstGadget": {
+        "name": "BEAR PAWS",
+        "image": "BEAR PAWS.png"
+      },
+      "secondGadget": {
+        "name": "FAUX FUR",
+        "image": "FAUX FUR.png"
+      },
+      "firstStarPower": {
+        "name": "BEAR WITH ME",
+        "image": "BEAR WITH ME.png"
+      },
+      "secondStarPower": {
+        "name": "HYPER BEAR",
+        "image": "HYPER BEAR.png"
+      },
+      "hypercharge": {
+        "name": "HYPERBEARING",
+        "image": "HYPERBEARING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000009,
+      "name": "DYNAMIKE",
+      "firstGadget": {
+        "name": "FIDGET SPINNER",
+        "image": "FIDGET SPINNER.png"
+      },
+      "secondGadget": {
+        "name": "SATCHEL CHARGE",
+        "image": "SATCHEL CHARGE.png"
+      },
+      "firstStarPower": {
+        "name": "DYNA-JUMP",
+        "image": "DYNA-JUMP.png"
+      },
+      "secondStarPower": {
+        "name": "DEMOLITION",
+        "image": "DEMOLITION.png"
+      },
+      "hypercharge": {
+        "name": "BOOMER",
+        "image": "BOOMER.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000010,
+      "name": "EL PRIMO",
+      "firstGadget": {
+        "name": "SUPLEX SUPPLEMENT",
+        "image": "SUPLEX SUPPLEMENT.png"
+      },
+      "secondGadget": {
+        "name": "ASTEROID BELT",
+        "image": "ASTEROID BELT.png"
+      },
+      "firstStarPower": {
+        "name": "EL FUEGO",
+        "image": "EL FUEGO.png"
+      },
+      "secondStarPower": {
+        "name": "METEOR RUSH",
+        "image": "METEOR RUSH.png"
+      },
+      "hypercharge": {
+        "name": "GRAVITY LEAP",
+        "image": "GRAVITY LEAP.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000011,
+      "name": "MORTIS",
+      "firstGadget": {
+        "name": "COMBO SPINNER",
+        "image": "COMBO SPINNER.png"
+      },
+      "secondGadget": {
+        "name": "CREATURE OF THE NIGHT",
+        "image": "CREATURE OF THE NIGHT.png"
+      },
+      "firstStarPower": {
+        "name": "CREEPY HARVEST",
+        "image": "CREEPY HARVEST.png"
+      },
+      "secondStarPower": {
+        "name": "COILED SNAKE",
+        "image": "COILED SNAKE.png"
+      },
+      "hypercharge": {
+        "name": "BLOOD BOOMERANG",
+        "image": "BLOOD BOOMERANG.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000012,
+      "name": "CROW",
+      "firstGadget": {
+        "name": "DEFENSE BOOSTER",
+        "image": "DEFENSE BOOSTER.png"
+      },
+      "secondGadget": {
+        "name": "SLOWING TOXIN",
+        "image": "SLOWING TOXIN.png"
+      },
+      "firstStarPower": {
+        "name": "EXTRA TOXIC",
+        "image": "EXTRA TOXIC.png"
+      },
+      "secondStarPower": {
+        "name": "CARRION CROW",
+        "image": "CARRION CROW.png"
+      },
+      "hypercharge": {
+        "name": "UTILITY KNIVES",
+        "image": "UTILITY KNIVES.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000013,
+      "name": "POCO",
+      "firstGadget": {
+        "name": "TUNING FORK",
+        "image": "TUNING FORK.png"
+      },
+      "secondGadget": {
+        "name": "PROTECTIVE TUNES",
+        "image": "PROTECTIVE TUNES.png"
+      },
+      "firstStarPower": {
+        "name": "DA CAPO!",
+        "image": "DA CAPO!.png"
+      },
+      "secondStarPower": {
+        "name": "SCREECHING SOLO",
+        "image": "SCREECHING SOLO.png"
+      },
+      "hypercharge": {
+        "name": "MEDIC'S MELODY",
+        "image": "MEDIC'S MELODY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000014,
+      "name": "BO",
+      "firstGadget": {
+        "name": "SUPER TOTEM",
+        "image": "SUPER TOTEM.png"
+      },
+      "secondGadget": {
+        "name": "TRIPWIRE",
+        "image": "TRIPWIRE.png"
+      },
+      "firstStarPower": {
+        "name": "CIRCLING EAGLE",
+        "image": "CIRCLING EAGLE.png"
+      },
+      "secondStarPower": {
+        "name": "SNARE A BEAR",
+        "image": "SNARE A BEAR.png"
+      },
+      "hypercharge": {
+        "name": "CATCH A BEAR",
+        "image": "CATCH A BEAR.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000015,
+      "name": "PIPER",
+      "firstGadget": {
+        "name": "AUTO AIMER",
+        "image": "AUTO AIMER.png"
+      },
+      "secondGadget": {
+        "name": "HOMEMADE RECIPE",
+        "image": "HOMEMADE RECIPE.png"
+      },
+      "firstStarPower": {
+        "name": "AMBUSH",
+        "image": "AMBUSH.png"
+      },
+      "secondStarPower": {
+        "name": "SNAPPY SNIPING",
+        "image": "SNAPPY SNIPING.png"
+      },
+      "hypercharge": {
+        "name": "BOPPIN'",
+        "image": "BOPPIN'.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000016,
+      "name": "PAM",
+      "firstGadget": {
+        "name": "PULSE MODULATOR",
+        "image": "PULSE MODULATOR.png"
+      },
+      "secondGadget": {
+        "name": "SCRAPSUCKER",
+        "image": "SCRAPSUCKER.png"
+      },
+      "firstStarPower": {
+        "name": "MAMA'S HUG",
+        "image": "MAMA'S HUG.png"
+      },
+      "secondStarPower": {
+        "name": "MAMA'S SQUEEZE",
+        "image": "MAMA'S SQUEEZE.png"
+      },
+      "hypercharge": {
+        "name": "MAMA'S LOVE",
+        "image": "MAMA'S LOVE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000017,
+      "name": "TARA",
+      "firstGadget": {
+        "name": "PSYCHIC ENHANCER",
+        "image": "PSYCHIC ENHANCER.png"
+      },
+      "secondGadget": {
+        "name": "SUPPORT FROM BEYOND",
+        "image": "SUPPORT FROM BEYOND.png"
+      },
+      "firstStarPower": {
+        "name": "BLACK PORTAL",
+        "image": "BLACK PORTAL.png"
+      },
+      "secondStarPower": {
+        "name": "HEALING SHADE",
+        "image": "HEALING SHADE.png"
+      },
+      "hypercharge": {
+        "name": "SUPERMASSIVE",
+        "image": "SUPERMASSIVE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000018,
+      "name": "DARRYL",
+      "firstGadget": {
+        "name": "RECOILING ROTATOR",
+        "image": "RECOILING ROTATOR.png"
+      },
+      "secondGadget": {
+        "name": "TAR BARREL",
+        "image": "TAR BARREL.png"
+      },
+      "firstStarPower": {
+        "name": "STEEL HOOPS",
+        "image": "STEEL HOOPS.png"
+      },
+      "secondStarPower": {
+        "name": "ROLLING RELOAD",
+        "image": "ROLLING RELOAD.png"
+      },
+      "hypercharge": {
+        "name": "BARREL O' BULLETS",
+        "image": "BARREL O' BULLETS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000019,
+      "name": "PENNY",
+      "firstGadget": {
+        "name": "SALTY BARREL",
+        "image": "SALTY BARREL.png"
+      },
+      "secondGadget": {
+        "name": "TRUSTY SPYGLASS",
+        "image": "TRUSTY SPYGLASS.png"
+      },
+      "firstStarPower": {
+        "name": "HEAVY COFFERS",
+        "image": "HEAVY COFFERS.png"
+      },
+      "secondStarPower": {
+        "name": "MASTER BLASTER",
+        "image": "MASTER BLASTER.png"
+      },
+      "hypercharge": {
+        "name": "NEW LOBBER",
+        "image": "NEW LOBBER.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000020,
+      "name": "FRANK",
+      "firstGadget": {
+        "name": "ACTIVE NOISE CANCELING",
+        "image": "ACTIVE NOISE CANCELING.png"
+      },
+      "secondGadget": {
+        "name": "IRRESISTIBLE ATTRACTION",
+        "image": "IRRESISTIBLE ATTRACTION.png"
+      },
+      "firstStarPower": {
+        "name": "POWER GRAB",
+        "image": "POWER GRAB.png"
+      },
+      "secondStarPower": {
+        "name": "SPONGE",
+        "image": "SPONGE.png"
+      },
+      "hypercharge": {
+        "name": "SEISMIC SMASH",
+        "image": "SEISMIC SMASH.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000021,
+      "name": "GENE",
+      "firstGadget": {
+        "name": "LAMP BLOWOUT",
+        "image": "LAMP BLOWOUT.png"
+      },
+      "secondGadget": {
+        "name": "VENGEFUL SPIRITS",
+        "image": "VENGEFUL SPIRITS.png"
+      },
+      "firstStarPower": {
+        "name": "MAGIC PUFFS",
+        "image": "MAGIC PUFFS.png"
+      },
+      "secondStarPower": {
+        "name": "SPIRIT SLAP",
+        "image": "SPIRIT SLAP.png"
+      },
+      "hypercharge": {
+        "name": "HYPER HAND",
+        "image": "HYPER HAND.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000022,
+      "name": "TICK",
+      "firstGadget": {
+        "name": "MINE MANIA",
+        "image": "MINE MANIA.png"
+      },
+      "secondGadget": {
+        "name": "LAST HURRAH",
+        "image": "LAST HURRAH.png"
+      },
+      "firstStarPower": {
+        "name": "WELL OILED",
+        "image": "WELL OILED.png"
+      },
+      "secondStarPower": {
+        "name": "AUTOMA-TICK RELOAD",
+        "image": "AUTOMA-TICK RELOAD.png"
+      },
+      "hypercharge": {
+        "name": "HEAD STRONG",
+        "image": "HEAD STRONG.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000023,
+      "name": "LEON",
+      "firstGadget": {
+        "name": "CLONE PROJECTOR",
+        "image": "CLONE PROJECTOR.png"
+      },
+      "secondGadget": {
+        "name": "LOLLIPOP DROP",
+        "image": "LOLLIPOP DROP.png"
+      },
+      "firstStarPower": {
+        "name": "SMOKE TRAILS",
+        "image": "SMOKE TRAILS.png"
+      },
+      "secondStarPower": {
+        "name": "INVISIHEAL",
+        "image": "INVISIHEAL.png"
+      },
+      "hypercharge": {
+        "name": "LIMBO",
+        "image": "LIMBO.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000024,
+      "name": "ROSA",
+      "firstGadget": {
+        "name": "GROW LIGHT",
+        "image": "GROW LIGHT.png"
+      },
+      "secondGadget": {
+        "name": "UNFRIENDLY BUSHES",
+        "image": "UNFRIENDLY BUSHES.png"
+      },
+      "firstStarPower": {
+        "name": "PLANT LIFE",
+        "image": "PLANT LIFE.png"
+      },
+      "secondStarPower": {
+        "name": "THORNY GLOVES",
+        "image": "THORNY GLOVES.png"
+      },
+      "hypercharge": {
+        "name": "GRASPING ROOTS",
+        "image": "GRASPING ROOTS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000025,
+      "name": "CARL",
+      "firstGadget": {
+        "name": "HEAT EJECTOR",
+        "image": "HEAT EJECTOR.png"
+      },
+      "secondGadget": {
+        "name": "FLYING HOOK",
+        "image": "FLYING HOOK.png"
+      },
+      "firstStarPower": {
+        "name": "POWER THROW",
+        "image": "POWER THROW.png"
+      },
+      "secondStarPower": {
+        "name": "PROTECTIVE PIROUETTE",
+        "image": "PROTECTIVE PIROUETTE.png"
+      },
+      "hypercharge": {
+        "name": "FLAME SPIN",
+        "image": "FLAME SPIN.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000026,
+      "name": "BIBI",
+      "firstGadget": {
+        "name": "VITAMIN BOOSTER",
+        "image": "VITAMIN BOOSTER.png"
+      },
+      "secondGadget": {
+        "name": "EXTRA STICKY",
+        "image": "EXTRA STICKY.png"
+      },
+      "firstStarPower": {
+        "name": "HOME RUN",
+        "image": "HOME RUN.png"
+      },
+      "secondStarPower": {
+        "name": "BATTING STANCE",
+        "image": "BATTING STANCE.png"
+      },
+      "hypercharge": {
+        "name": "OUT OF BOUNDS",
+        "image": "OUT OF BOUNDS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000027,
+      "name": "8-BIT",
+      "firstGadget": {
+        "name": "CHEAT CARTRIDGE",
+        "image": "CHEAT CARTRIDGE.png"
+      },
+      "secondGadget": {
+        "name": "EXTRA CREDITS",
+        "image": "EXTRA CREDITS.png"
+      },
+      "firstStarPower": {
+        "name": "BOOSTED BOOSTER",
+        "image": "BOOSTED BOOSTER.png"
+      },
+      "secondStarPower": {
+        "name": "PLUGGED IN",
+        "image": "PLUGGED IN.png"
+      },
+      "hypercharge": {
+        "name": "AIMBOT",
+        "image": "AIMBOT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000028,
+      "name": "SANDY",
+      "firstGadget": {
+        "name": "SLEEP STIMULATOR",
+        "image": "SLEEP STIMULATOR.png"
+      },
+      "secondGadget": {
+        "name": "SWEET DREAMS",
+        "image": "SWEET DREAMS.png"
+      },
+      "firstStarPower": {
+        "name": "RUDE SANDS",
+        "image": "RUDE SANDS.png"
+      },
+      "secondStarPower": {
+        "name": "HEALING WINDS",
+        "image": "HEALING WINDS.png"
+      },
+      "hypercharge": {
+        "name": "SWIFT WINDS",
+        "image": "SWIFT WINDS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000029,
+      "name": "BEA",
+      "firstGadget": {
+        "name": "HONEY MOLASSES",
+        "image": "HONEY MOLASSES.png"
+      },
+      "secondGadget": {
+        "name": "RATTLED HIVE",
+        "image": "RATTLED HIVE.png"
+      },
+      "firstStarPower": {
+        "name": "INSTA BEALOAD",
+        "image": "INSTA BEALOAD.png"
+      },
+      "secondStarPower": {
+        "name": "HONEYCOMB",
+        "image": "HONEYCOMB.png"
+      },
+      "hypercharge": {
+        "name": "PROTECT THE QUEEN",
+        "image": "PROTECT THE QUEEN.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000030,
+      "name": "EMZ",
+      "firstGadget": {
+        "name": "FRIENDZONER",
+        "image": "FRIENDZONER.png"
+      },
+      "secondGadget": {
+        "name": "ACID SPRAY",
+        "image": "ACID SPRAY.png"
+      },
+      "firstStarPower": {
+        "name": "BAD KARMA",
+        "image": "BAD KARMA.png"
+      },
+      "secondStarPower": {
+        "name": "HYPE",
+        "image": "HYPE.png"
+      },
+      "hypercharge": {
+        "name": "OBERERHYPED HAZE",
+        "image": "OBERERHYPED HAZE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000031,
+      "name": "MR. P",
+      "firstGadget": {
+        "name": "SERVICE BELL",
+        "image": "SERVICE BELL.png"
+      },
+      "secondGadget": {
+        "name": "PORTER REINFORCEMENTS",
+        "image": "PORTER REINFORCEMENTS.png"
+      },
+      "firstStarPower": {
+        "name": "HANDLE WITH CARE",
+        "image": "HANDLE WITH CARE.png"
+      },
+      "secondStarPower": {
+        "name": "REVOLVING DOOR",
+        "image": "REVOLVING DOOR.png"
+      },
+      "hypercharge": {
+        "name": "SUPER PORTERS! ASSEMBLE!",
+        "image": "SUPER PORTERS! ASSEMBLE!.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000032,
+      "name": "MAX",
+      "firstGadget": {
+        "name": "PHASE SHIFTER",
+        "image": "PHASE SHIFTER.png"
+      },
+      "secondGadget": {
+        "name": "SNEAKY SNEAKERS",
+        "image": "SNEAKY SNEAKERS.png"
+      },
+      "firstStarPower": {
+        "name": "SUPER CHARGED",
+        "image": "SUPER CHARGED.png"
+      },
+      "secondStarPower": {
+        "name": "RUN N GUN",
+        "image": "RUN N GUN.png"
+      },
+      "hypercharge": {
+        "name": "UNLIMITED ENERGY",
+        "image": "UNLIMITED ENERGY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000034,
+      "name": "JACKY",
+      "firstGadget": {
+        "name": "PNEUMATIC BOOSTER",
+        "image": "PNEUMATIC BOOSTER.png"
+      },
+      "secondGadget": {
+        "name": "REBUILD",
+        "image": "REBUILD.png"
+      },
+      "firstStarPower": {
+        "name": "COUNTER CRUSH",
+        "image": "COUNTER CRUSH.png"
+      },
+      "secondStarPower": {
+        "name": "HARDY HARD HAT",
+        "image": "HARDY HARD HAT.png"
+      },
+      "hypercharge": {
+        "name": "SEISMIC EVENT",
+        "image": "SEISMIC EVENT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000035,
+      "name": "GALE",
+      "firstGadget": {
+        "name": "SPRING EJECTOR",
+        "image": "SPRING EJECTOR.png"
+      },
+      "secondGadget": {
+        "name": "TWISTER",
+        "image": "TWISTER.png"
+      },
+      "firstStarPower": {
+        "name": "BLUSTERY BLOW",
+        "image": "BLUSTERY BLOW.png"
+      },
+      "secondStarPower": {
+        "name": "FREEZING SNOW",
+        "image": "FREEZING SNOW.png"
+      },
+      "hypercharge": {
+        "name": "BLIZZARD",
+        "image": "BLIZZARD.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000036,
+      "name": "NANI",
+      "firstGadget": {
+        "name": "WARPIN' TIME",
+        "image": "WARPIN' TIME.png"
+      },
+      "secondGadget": {
+        "name": "RETURN TO SENDER",
+        "image": "RETURN TO SENDER.png"
+      },
+      "firstStarPower": {
+        "name": "AUTOFOCUS",
+        "image": "AUTOFOCUS.png"
+      },
+      "secondStarPower": {
+        "name": "TEMPERED STEEL",
+        "image": "TEMPERED STEEL.png"
+      },
+      "hypercharge": {
+        "name": "BIG PEEP",
+        "image": "BIG PEEP.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000037,
+      "name": "SPROUT",
+      "firstGadget": {
+        "name": "GARDEN MULCHER",
+        "image": "GARDEN MULCHER.png"
+      },
+      "secondGadget": {
+        "name": "TRANSPLANT",
+        "image": "TRANSPLANT.png"
+      },
+      "firstStarPower": {
+        "name": "OVERGROWTH",
+        "image": "OVERGROWTH.png"
+      },
+      "secondStarPower": {
+        "name": "PHOTOSYNTHESIS",
+        "image": "PHOTOSYNTHESIS.png"
+      },
+      "hypercharge": {
+        "name": "THORNS",
+        "image": "THORNS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000038,
+      "name": "SURGE",
+      "firstGadget": {
+        "name": "POWER SURGE",
+        "image": "POWER SURGE.png"
+      },
+      "secondGadget": {
+        "name": "POWER SHIELD",
+        "image": "POWER SHIELD.png"
+      },
+      "firstStarPower": {
+        "name": "TO THE MAX!",
+        "image": "TO THE MAX!.png"
+      },
+      "secondStarPower": {
+        "name": "SERVE ICE COLD",
+        "image": "SERVE ICE COLD.png"
+      },
+      "hypercharge": {
+        "name": "LEVEL 5",
+        "image": "LEVEL 5.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000039,
+      "name": "COLETTE",
+      "firstGadget": {
+        "name": "NA-AH!",
+        "image": "NA-AH!.png"
+      },
+      "secondGadget": {
+        "name": "GOTCHA!",
+        "image": "GOTCHA!.png"
+      },
+      "firstStarPower": {
+        "name": "PUSH IT",
+        "image": "PUSH IT.png"
+      },
+      "secondStarPower": {
+        "name": "MASS TAX",
+        "image": "MASS TAX.png"
+      },
+      "hypercharge": {
+        "name": "TEEN SPIRIT",
+        "image": "TEEN SPIRIT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000040,
+      "name": "AMBER",
+      "firstGadget": {
+        "name": "FIRE STARTERS",
+        "image": "FIRE STARTERS.png"
+      },
+      "secondGadget": {
+        "name": "DANCING FLAMES",
+        "image": "DANCING FLAMES.png"
+      },
+      "firstStarPower": {
+        "name": "WILD FLAMES",
+        "image": "WILD FLAMES.png"
+      },
+      "secondStarPower": {
+        "name": "SCORCHIN' SIPHON",
+        "image": "SCORCHIN' SIPHON.png"
+      },
+      "hypercharge": {
+        "name": "OIL SPILL",
+        "image": "OIL SPILL.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000041,
+      "name": "LOU",
+      "firstGadget": {
+        "name": "ICE BLOCK",
+        "image": "ICE BLOCK.png"
+      },
+      "secondGadget": {
+        "name": "CRYO SYRUP",
+        "image": "CRYO SYRUP.png"
+      },
+      "firstStarPower": {
+        "name": "SUPERCOOL",
+        "image": "SUPERCOOL.png"
+      },
+      "secondStarPower": {
+        "name": "HYPOTHERMIA",
+        "image": "HYPOTHERMIA.png"
+      },
+      "hypercharge": {
+        "name": "SLUSHIE STORM",
+        "image": "SLUSHIE STORM.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000042,
+      "name": "BYRON",
+      "firstGadget": {
+        "name": "SHOT IN THE ARM",
+        "image": "SHOT IN THE ARM.png"
+      },
+      "secondGadget": {
+        "name": "BOOSTER SHOTS",
+        "image": "BOOSTER SHOTS.png"
+      },
+      "firstStarPower": {
+        "name": "MALAISE",
+        "image": "MALAISE.png"
+      },
+      "secondStarPower": {
+        "name": "INJECTION",
+        "image": "INJECTION.png"
+      },
+      "hypercharge": {
+        "name": "UNSTABLE CONCOCTION",
+        "image": "UNSTABLE CONCOCTION.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000043,
+      "name": "EDGAR",
+      "firstGadget": {
+        "name": "LET'S FLY",
+        "image": "LET'S FLY.png"
+      },
+      "secondGadget": {
+        "name": "HARDCORE",
+        "image": "HARDCORE.png"
+      },
+      "firstStarPower": {
+        "name": "HARD LANDING",
+        "image": "HARD LANDING.png"
+      },
+      "secondStarPower": {
+        "name": "FISTICUFFS",
+        "image": "FISTICUFFS.png"
+      },
+      "hypercharge": {
+        "name": "OUTBURAT",
+        "image": "OUTBURAT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000044,
+      "name": "RUFFS",
+      "firstGadget": {
+        "name": "TAKE COVER",
+        "image": "TAKE COVER.png"
+      },
+      "secondGadget": {
+        "name": "AIR SUPPORT",
+        "image": "AIR SUPPORT.png"
+      },
+      "firstStarPower": {
+        "name": "AIR SUPERIORITY",
+        "image": "AIR SUPERIORITY.png"
+      },
+      "secondStarPower": {
+        "name": "FIELD PROMOTION",
+        "image": "FIELD PROMOTION.png"
+      },
+      "hypercharge": {
+        "name": "THE GOODEST BOY",
+        "image": "THE GOODEST BOY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000045,
+      "name": "STU",
+      "firstGadget": {
+        "name": "SPEED ZONE",
+        "image": "SPEED ZONE.png"
+      },
+      "secondGadget": {
+        "name": "BREAKTHROUGH",
+        "image": "BREAKTHROUGH.png"
+      },
+      "firstStarPower": {
+        "name": "ZERO DRAG",
+        "image": "ZERO DRAG.png"
+      },
+      "secondStarPower": {
+        "name": "GASO-HEAL",
+        "image": "GASO-HEAL.png"
+      },
+      "hypercharge": {
+        "name": "INFINITRO",
+        "image": "INFINITRO.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000046,
+      "name": "BELLE",
+      "firstGadget": {
+        "name": "NEST EGG",
+        "image": "NEST EGG.png"
+      },
+      "secondGadget": {
+        "name": "REVERSE POLARITY",
+        "image": "REVERSE POLARITY.png"
+      },
+      "firstStarPower": {
+        "name": "POSITIVE FEEDBACK",
+        "image": "POSITIVE FEEDBACK.png"
+      },
+      "secondStarPower": {
+        "name": "GROUNDED",
+        "image": "GROUNDED.png"
+      },
+      "hypercharge": {
+        "name": "MAGNETIC",
+        "image": "MAGNETIC.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000047,
+      "name": "SQUEAK",
+      "firstGadget": {
+        "name": "WINDUP",
+        "image": "WINDUP.png"
+      },
+      "secondGadget": {
+        "name": "RESIDUE",
+        "image": "RESIDUE.png"
+      },
+      "firstStarPower": {
+        "name": "CHAIN REACTION",
+        "image": "CHAIN REACTION.png"
+      },
+      "secondStarPower": {
+        "name": "SUPER STICKY",
+        "image": "SUPER STICKY.png"
+      },
+      "hypercharge": {
+        "name": "BOUNG BLOD",
+        "image": "BOUNG BLOD.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000048,
+      "name": "GROM",
+      "firstGadget": {
+        "name": "WATCHTOWER",
+        "image": "WATCHTOWER.png"
+      },
+      "secondGadget": {
+        "name": "RADIO CHECK",
+        "image": "RADIO CHECK.png"
+      },
+      "firstStarPower": {
+        "name": "FOOT PATROL",
+        "image": "FOOT PATROL.png"
+      },
+      "secondStarPower": {
+        "name": "X-FACTOR",
+        "image": "X-FACTOR.png"
+      },
+      "hypercharge": {
+        "name": "GROM BOOM GOSS BOOM",
+        "image": "GROM BOOM GOSS BOOM.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2025-12-27T12:07:58.878Z"
+    },
+    {
+      "id": 16000049,
+      "name": "BUZZ",
+      "firstGadget": {
+        "name": "RESERVE BUOY",
+        "image": "RESERVE BUOY.png"
+      },
+      "secondGadget": {
+        "name": "X-RAY-SHADES",
+        "image": "X-RAY-SHADES.png"
+      },
+      "firstStarPower": {
+        "name": "TOUGHER TORPEDO",
+        "image": "TOUGHER TORPEDO.png"
+      },
+      "secondStarPower": {
+        "name": "EYES SHARP",
+        "image": "EYES SHARP.png"
+      },
+      "hypercharge": {
+        "name": "BUZZWATCH",
+        "image": "BUZZWATCH.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000050,
+      "name": "GRIFF",
+      "firstGadget": {
+        "name": "PIGGY BANK",
+        "image": "PIGGY BANK.png"
+      },
+      "secondGadget": {
+        "name": "COIN SHOWER",
+        "image": "COIN SHOWER.png"
+      },
+      "firstStarPower": {
+        "name": "KEEP THE CHANGE",
+        "image": "KEEP THE CHANGE.png"
+      },
+      "secondStarPower": {
+        "name": "BUSINESS RESILIENCE",
+        "image": "BUSINESS RESILIENCE.png"
+      },
+      "hypercharge": {
+        "name": "TAX REBATE",
+        "image": "TAX REBATE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000051,
+      "name": "ASH",
+      "firstGadget": {
+        "name": "CHILL PILL",
+        "image": "CHILL PILL.png"
+      },
+      "secondGadget": {
+        "name": "ROTTEN BANANA",
+        "image": "ROTTEN BANANA.png"
+      },
+      "firstStarPower": {
+        "name": "FIRST BASH",
+        "image": "FIRST BASH.png"
+      },
+      "secondStarPower": {
+        "name": "MAD AS HECK",
+        "image": "MAD AS HECK.png"
+      },
+      "hypercharge": {
+        "name": "RAT KING",
+        "image": "RAT KING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000052,
+      "name": "MEG",
+      "firstGadget": {
+        "name": "JOLTING VOLTS",
+        "image": "JOLTING VOLTS.png"
+      },
+      "secondGadget": {
+        "name": "TOOLBOX",
+        "image": "TOOLBOX.png"
+      },
+      "firstStarPower": {
+        "name": "FORCE FIELD",
+        "image": "FORCE FIELD.png"
+      },
+      "secondStarPower": {
+        "name": "HEAVY METAL",
+        "image": "HEAVY METAL.png"
+      },
+      "hypercharge": {
+        "name": "TUNGSTEN TOUGT NOT",
+        "image": "TUNGSTEN TOUGT NOT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000053,
+      "name": "LOLA",
+      "firstGadget": {
+        "name": "FREEZE FRAME",
+        "image": "FREEZE FRAME.png"
+      },
+      "secondGadget": {
+        "name": "STUNT DOUBLE",
+        "image": "STUNT DOUBLE.png"
+      },
+      "firstStarPower": {
+        "name": "IMPROVISE",
+        "image": "IMPROVISE.png"
+      },
+      "secondStarPower": {
+        "name": "SEALED WITH A KISS",
+        "image": "SEALED WITH A KISS.png"
+      },
+      "hypercharge": {
+        "name": "INFLATED EGO",
+        "image": "INFLATED EGO.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000054,
+      "name": "FANG",
+      "firstGadget": {
+        "name": "CORN-FU",
+        "image": "CORN-FU.png"
+      },
+      "secondGadget": {
+        "name": "ROUNDHOUSE KICK",
+        "image": "ROUNDHOUSE KICK.png"
+      },
+      "firstStarPower": {
+        "name": "FRESH KICKS",
+        "image": "FRESH KICKS.png"
+      },
+      "secondStarPower": {
+        "name": "DIVINE SOLES",
+        "image": "DIVINE SOLES.png"
+      },
+      "hypercharge": {
+        "name": "DRAGON KICK",
+        "image": "DRAGON KICK.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000056,
+      "name": "EVE",
+      "firstGadget": {
+        "name": "GOTTA GO!",
+        "image": "GOTTA GO!.png"
+      },
+      "secondGadget": {
+        "name": "MOTHERLY LOVE",
+        "image": "MOTHERLY LOVE.png"
+      },
+      "firstStarPower": {
+        "name": "UNNATURAL ORDER",
+        "image": "UNNATURAL ORDER.png"
+      },
+      "secondStarPower": {
+        "name": "HAPPY SURPRISE",
+        "image": "HAPPY SURPRISE.png"
+      },
+      "hypercharge": {
+        "name": "GENERTIONS",
+        "image": "GENERTIONS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000057,
+      "name": "JANET",
+      "firstGadget": {
+        "name": "DROP THE BASS",
+        "image": "DROP THE BASS.png"
+      },
+      "secondGadget": {
+        "name": "BACKSTAGE PASS",
+        "image": "BACKSTAGE PASS.png"
+      },
+      "firstStarPower": {
+        "name": "STAGE VIEW",
+        "image": "STAGE VIEW.png"
+      },
+      "secondStarPower": {
+        "name": "VOCAL WARM UP",
+        "image": "VOCAL WARM UP.png"
+      },
+      "hypercharge": {
+        "name": "MAGNUM OPUS",
+        "image": "MAGNUM OPUS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000058,
+      "name": "BONNIE",
+      "firstGadget": {
+        "name": "SUGAR RUSH",
+        "image": "SUGAR RUSH.png"
+      },
+      "secondGadget": {
+        "name": "CRASH TEST",
+        "image": "CRASH TEST.png"
+      },
+      "firstStarPower": {
+        "name": "BLACK POWDER",
+        "image": "BLACK POWDER.png"
+      },
+      "secondStarPower": {
+        "name": "WISDOM TOOTH",
+        "image": "WISDOM TOOTH.png"
+      },
+      "hypercharge": {
+        "name": "DAREDEVIE",
+        "image": "DAREDEVIE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000059,
+      "name": "OTIS",
+      "firstGadget": {
+        "name": "DORMANT STAR",
+        "image": "DORMANT STAR.png"
+      },
+      "secondGadget": {
+        "name": "PHAT SPLATTER",
+        "image": "PHAT SPLATTER.png"
+      },
+      "firstStarPower": {
+        "name": "STENCIL GLUE",
+        "image": "STENCIL GLUE.png"
+      },
+      "secondStarPower": {
+        "name": "INK REFILLS",
+        "image": "INK REFILLS.png"
+      },
+      "hypercharge": {
+        "name": "SILENT STUNNER",
+        "image": "SILENT STUNNER.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000060,
+      "name": "SAM",
+      "firstGadget": {
+        "name": "MAGNETIC FIELD",
+        "image": "MAGNETIC FIELD.png"
+      },
+      "secondGadget": {
+        "name": "PULSE REPELLENT",
+        "image": "PULSE REPELLENT.png"
+      },
+      "firstStarPower": {
+        "name": "HEARTY RECOVERY",
+        "image": "HEARTY RECOVERY.png"
+      },
+      "secondStarPower": {
+        "name": "REMOTE RECHARGE",
+        "image": "REMOTE RECHARGE.png"
+      },
+      "hypercharge": {
+        "name": "HYPER FIST",
+        "image": "HYPER FIST.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000061,
+      "name": "GUS",
+      "firstGadget": {
+        "name": "KOOKY POPPER",
+        "image": "KOOKY POPPER.png"
+      },
+      "secondGadget": {
+        "name": "SOUL SWITCHER",
+        "image": "SOUL SWITCHER.png"
+      },
+      "firstStarPower": {
+        "name": "HEALTH BONANZA",
+        "image": "HEALTH BONANZA.png"
+      },
+      "secondStarPower": {
+        "name": "SPIRIT ANIMAL",
+        "image": "SPIRIT ANIMAL.png"
+      },
+      "hypercharge": {
+        "name": "SPOOKY POP",
+        "image": "SPOOKY POP.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "superRare",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000062,
+      "name": "BUSTER",
+      "firstGadget": {
+        "name": "UTILITY BELT",
+        "image": "UTILITY BELT.png"
+      },
+      "secondGadget": {
+        "name": "SLO-MO REPLAY",
+        "image": "SLO-MO REPLAY.png"
+      },
+      "firstStarPower": {
+        "name": "BLOCKBUSTER",
+        "image": "BLOCKBUSTER.png"
+      },
+      "secondStarPower": {
+        "name": "KEVLAR VEST",
+        "image": "KEVLAR VEST.png"
+      },
+      "hypercharge": {
+        "name": "PLOT ARMOR",
+        "image": "PLOT ARMOR.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000063,
+      "name": "CHESTER",
+      "firstGadget": {
+        "name": "SPICY DICE",
+        "image": "SPICY DICE.png"
+      },
+      "secondGadget": {
+        "name": "CANDY BEANS",
+        "image": "CANDY BEANS.png"
+      },
+      "firstStarPower": {
+        "name": "SINGLE BELL'O'MANIA",
+        "image": "SINGLE BELL'O'MANIA.png"
+      },
+      "secondStarPower": {
+        "name": "SNEAK PEEK",
+        "image": "SNEAK PEEK.png"
+      },
+      "hypercharge": {
+        "name": "CRUNCHY, CHEWY, GOOEY",
+        "image": "CRUNCHY, CHEWY, GOOEY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000064,
+      "name": "GRAY",
+      "firstGadget": {
+        "name": "WALKING CANE",
+        "image": "WALKING CANE.png"
+      },
+      "secondGadget": {
+        "name": "GRAND PIANO",
+        "image": "GRAND PIANO.png"
+      },
+      "firstStarPower": {
+        "name": "FAKE INJURY",
+        "image": "FAKE INJURY.png"
+      },
+      "secondStarPower": {
+        "name": "NEW PERSPECTIVE",
+        "image": "NEW PERSPECTIVE.png"
+      },
+      "hypercharge": {
+        "name": "ANOTHER DIMENSION",
+        "image": "ANOTHER DIMENSION.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000065,
+      "name": "MANDY",
+      "firstGadget": {
+        "name": "CARAMELIZE",
+        "image": "CARAMELIZE.png"
+      },
+      "secondGadget": {
+        "name": "COOKIE CRUMBS",
+        "image": "COOKIE CRUMBS.png"
+      },
+      "firstStarPower": {
+        "name": "IN MY SIGHTS",
+        "image": "IN MY SIGHTS.png"
+      },
+      "secondStarPower": {
+        "name": "HARD CANDY",
+        "image": "HARD CANDY.png"
+      },
+      "hypercharge": {
+        "name": "SUGAR FOR ALL!",
+        "image": "SUGAR FOR ALL!.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000066,
+      "name": "R-T",
+      "firstGadget": {
+        "name": "OUT OF LINE",
+        "image": "OUT OF LINE.png"
+      },
+      "secondGadget": {
+        "name": "HACKS!",
+        "image": "HACKS!.png"
+      },
+      "firstStarPower": {
+        "name": "QUICK MATHS",
+        "image": "QUICK MATHS.png"
+      },
+      "secondStarPower": {
+        "name": "RECORDING",
+        "image": "RECORDING.png"
+      },
+      "hypercharge": {
+        "name": "360-DEGREE SURVEILLANCE",
+        "image": "360-DEGREE SURVEILLANCE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000067,
+      "name": "WILLOW",
+      "firstGadget": {
+        "name": "SPELLBOUND",
+        "image": "SPELLBOUND.png"
+      },
+      "secondGadget": {
+        "name": "DIVE",
+        "image": "DIVE.png"
+      },
+      "firstStarPower": {
+        "name": "LOVE IS BLIND",
+        "image": "LOVE IS BLIND.png"
+      },
+      "secondStarPower": {
+        "name": "OBSESSION",
+        "image": "OBSESSION.png"
+      },
+      "hypercharge": {
+        "name": "PSYCHOC SAFETY",
+        "image": "PSYCHOC SAFETY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000068,
+      "name": "MAISIE",
+      "firstGadget": {
+        "name": "DISENGAGE!",
+        "image": "DISENGAGE!.png"
+      },
+      "secondGadget": {
+        "name": "FINISH THEM!",
+        "image": "FINISH THEM!.png"
+      },
+      "firstStarPower": {
+        "name": "PINPOINT PRECISION",
+        "image": "PINPOINT PRECISION.png"
+      },
+      "secondStarPower": {
+        "name": "TREMORS",
+        "image": "TREMORS.png"
+      },
+      "hypercharge": {
+        "name": "AFTERMATH",
+        "image": "AFTERMATH.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000069,
+      "name": "HANK",
+      "firstGadget": {
+        "name": "WATER BALLOONS",
+        "image": "WATER BALLOONS.png"
+      },
+      "secondGadget": {
+        "name": "BARRICADE",
+        "image": "BARRICADE.png"
+      },
+      "firstStarPower": {
+        "name": "IT'S GONNA BLOW",
+        "image": "IT'S GONNA BLOW.png"
+      },
+      "secondStarPower": {
+        "name": "TAKE COVER!",
+        "image": "TAKE COVER!.png"
+      },
+      "hypercharge": {
+        "name": "HOMING FISHILE",
+        "image": "HOMING FISHILE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000070,
+      "name": "CORDELIUS",
+      "firstGadget": {
+        "name": "REPLANTING",
+        "image": "REPLANTING.png"
+      },
+      "secondGadget": {
+        "name": "POISON MUSHROOM",
+        "image": "POISON MUSHROOM.png"
+      },
+      "firstStarPower": {
+        "name": "COMBOSHROOMS",
+        "image": "COMBOSHROOMS.png"
+      },
+      "secondStarPower": {
+        "name": "MUSHROOM KINGDOM",
+        "image": "MUSHROOM KINGDOM.png"
+      },
+      "hypercharge": {
+        "name": "COMPLETE DARKNESS",
+        "image": "COMPLETE DARKNESS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000071,
+      "name": "DOUG",
+      "firstGadget": {
+        "name": "DOUBLE SAUSAGE",
+        "image": "DOUBLE SAUSAGE.png"
+      },
+      "secondGadget": {
+        "name": "EXTRA MUSTARD",
+        "image": "EXTRA MUSTARD.png"
+      },
+      "firstStarPower": {
+        "name": "FAST FOOD",
+        "image": "FAST FOOD.png"
+      },
+      "secondStarPower": {
+        "name": "SELF SERVICE",
+        "image": "SELF SERVICE.png"
+      },
+      "hypercharge": {
+        "name": "FREE TOPPINGS",
+        "image": "FREE TOPPINGS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000072,
+      "name": "PEARL",
+      "firstGadget": {
+        "name": "OVERCOOKED",
+        "image": "OVERCOOKED.png"
+      },
+      "secondGadget": {
+        "name": "MADE WITH LOVE",
+        "image": "MADE WITH LOVE.png"
+      },
+      "firstStarPower": {
+        "name": "HEAT RETENTION",
+        "image": "HEAT RETENTION.png"
+      },
+      "secondStarPower": {
+        "name": "HEAT SHIELD",
+        "image": "HEAT SHIELD.png"
+      },
+      "hypercharge": {
+        "name": "PYROLITIC",
+        "image": "PYROLITIC.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000073,
+      "name": "CHUCK",
+      "firstGadget": {
+        "name": "REROUTING",
+        "image": "REROUTING.png"
+      },
+      "secondGadget": {
+        "name": "GHOST TRAIN",
+        "image": "GHOST TRAIN.png"
+      },
+      "firstStarPower": {
+        "name": "PIT STOP",
+        "image": "PIT STOP.png"
+      },
+      "secondStarPower": {
+        "name": "TICKETS PLEASE!",
+        "image": "TICKETS PLEASE!.png"
+      },
+      "hypercharge": {
+        "name": "FULL STEAM AHEAD!",
+        "image": "FULL STEAM AHEAD!.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000074,
+      "name": "CHARLIE",
+      "firstGadget": {
+        "name": "SPIDERS",
+        "image": "SPIDERS.png"
+      },
+      "secondGadget": {
+        "name": "PERSONAL SPACE",
+        "image": "PERSONAL SPACE.png"
+      },
+      "firstStarPower": {
+        "name": "DIGESTIVE",
+        "image": "DIGESTIVE.png"
+      },
+      "secondStarPower": {
+        "name": "SLIMY",
+        "image": "SLIMY.png"
+      },
+      "hypercharge": {
+        "name": "PESTILENCE",
+        "image": "PESTILENCE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000075,
+      "name": "MICO",
+      "firstGadget": {
+        "name": "CLIPPING SCREAM",
+        "image": "CLIPPING SCREAM.png"
+      },
+      "secondGadget": {
+        "name": "PRESTO",
+        "image": "PRESTO.png"
+      },
+      "firstStarPower": {
+        "name": "MONKEY BUSINESS",
+        "image": "MONKEY BUSINESS.png"
+      },
+      "secondStarPower": {
+        "name": "RECORD SMASH",
+        "image": "RECORD SMASH.png"
+      },
+      "hypercharge": {
+        "name": "SOUND CHECK",
+        "image": "SOUND CHECK.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000076,
+      "name": "KIT",
+      "firstGadget": {
+        "name": "CARDBOARD BOX",
+        "image": "CARDBOARD BOX.png"
+      },
+      "secondGadget": {
+        "name": "CHEESEBURGER",
+        "image": "CHEESEBURGER.png"
+      },
+      "firstStarPower": {
+        "name": "POWER HUNGRY",
+        "image": "POWER HUNGRY.png"
+      },
+      "secondStarPower": {
+        "name": "OVERLY ATTACHED",
+        "image": "OVERLY ATTACHED.png"
+      },
+      "hypercharge": {
+        "name": "MAKING BISCUITS",
+        "image": "MAKING BISCUITS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000077,
+      "name": "LARRY & LAWRIE",
+      "firstGadget": {
+        "name": "ORDER: SWAP",
+        "image": "ORDER SWAP.png"
+      },
+      "secondGadget": {
+        "name": "ORDER: FALL BACK",
+        "image": "ORDER FALL BACK.png"
+      },
+      "firstStarPower": {
+        "name": "PROTOCOL: PROTECT",
+        "image": "PROTOCOL PROTECT.png"
+      },
+      "secondStarPower": {
+        "name": "PROTOCOL: ASSIST",
+        "image": "PROTOCOL ASSIST.png"
+      },
+      "hypercharge": {
+        "name": "THE THREE-BOT PROBLEM",
+        "image": "THE THREE-BOT PROBLEM.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2025-12-27T12:14:54.906Z"
+    },
+    {
+      "id": 16000078,
+      "name": "MELODIE",
+      "firstGadget": {
+        "name": "PERFECT PITCH",
+        "image": "PERFECT PITCH.png"
+      },
+      "secondGadget": {
+        "name": "INTERLUDE",
+        "image": "INTERLUDE.png"
+      },
+      "firstStarPower": {
+        "name": "FAST BEATS",
+        "image": "FAST BEATS.png"
+      },
+      "secondStarPower": {
+        "name": "EXTENDED MIX",
+        "image": "EXTENDED MIX.png"
+      },
+      "hypercharge": {
+        "name": "FLASH MOB",
+        "image": "FLASH MOB.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000079,
+      "name": "ANGELO",
+      "firstGadget": {
+        "name": "STINGING FLIGHT",
+        "image": "STINGING FLIGHT.png"
+      },
+      "secondGadget": {
+        "name": "MASTER FLETCHER",
+        "image": "MASTER FLETCHER.png"
+      },
+      "firstStarPower": {
+        "name": "EMPOWER",
+        "image": "EMPOWER.png"
+      },
+      "secondStarPower": {
+        "name": "FLOW",
+        "image": "FLOW.png"
+      },
+      "hypercharge": {
+        "name": "IN MY ELEMENT",
+        "image": "IN MY ELEMENT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000080,
+      "name": "DRACO",
+      "firstGadget": {
+        "name": "UPPER CUT",
+        "image": "UPPER CUT.png"
+      },
+      "secondGadget": {
+        "name": "LAST STAND",
+        "image": "LAST STAND.png"
+      },
+      "firstStarPower": {
+        "name": "EXPOSE",
+        "image": "EXPOSE.png"
+      },
+      "secondStarPower": {
+        "name": "SHREDDING",
+        "image": "SHREDDING.png"
+      },
+      "hypercharge": {
+        "name": "FIRE AND FLAMS",
+        "image": "FIRE AND FLAMS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000081,
+      "name": "LILY",
+      "firstGadget": {
+        "name": "VANISH",
+        "image": "VANISH.png"
+      },
+      "secondGadget": {
+        "name": "REPOT",
+        "image": "REPOT.png"
+      },
+      "firstStarPower": {
+        "name": "SPIKY",
+        "image": "SPIKY.png"
+      },
+      "secondStarPower": {
+        "name": "VIGILANCE",
+        "image": "VIGILANCE.png"
+      },
+      "hypercharge": {
+        "name": "GERMINATE",
+        "image": "GERMINATE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000082,
+      "name": "BERRY",
+      "firstGadget": {
+        "name": "FRIENDSHIP IS GREAT",
+        "image": "FRIENDSHIP IS GREAT.png"
+      },
+      "secondGadget": {
+        "name": "HEALTHY ADDITIVES",
+        "image": "HEALTHY ADDITIVES.png"
+      },
+      "firstStarPower": {
+        "name": "FLOOR IS FINE",
+        "image": "FLOOR IS FINE.png"
+      },
+      "secondStarPower": {
+        "name": "MAKING A MESS",
+        "image": "MAKING A MESS.png"
+      },
+      "hypercharge": {
+        "name": "DOUBLE SCOOPS",
+        "image": "DOUBLE SCOOPS.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000083,
+      "name": "CLANCY",
+      "firstGadget": {
+        "name": "SNAPPY SHOOTING",
+        "image": "SNAPPY SHOOTING.png"
+      },
+      "secondGadget": {
+        "name": "TACTICAL RETREAT",
+        "image": "TACTICAL RETREAT.png"
+      },
+      "firstStarPower": {
+        "name": "RECON",
+        "image": "RECON.png"
+      },
+      "secondStarPower": {
+        "name": "PUMPING UP",
+        "image": "PUMPING UP.png"
+      },
+      "hypercharge": {
+        "name": "RECALL OF DUTY",
+        "image": "RECALL OF DUTY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000084,
+      "name": "MOE",
+      "firstGadget": {
+        "name": "DODGY DIGGING",
+        "image": "DODGY DIGGING.png"
+      },
+      "secondGadget": {
+        "name": "RAT RACE",
+        "image": "RAT RACE.png"
+      },
+      "firstStarPower": {
+        "name": "SKIPPING STONES",
+        "image": "SKIPPING STONES.png"
+      },
+      "secondStarPower": {
+        "name": "SPEEDING TICKET",
+        "image": "SPEEDING TICKET.png"
+      },
+      "hypercharge": {
+        "name": "THE BIG CHEESE",
+        "image": "THE BIG CHEESE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000085,
+      "name": "KENJI",
+      "firstGadget": {
+        "name": "DASHI DASH",
+        "image": "DASHI DASH.png"
+      },
+      "secondGadget": {
+        "name": "HOSOMAKI HEALING",
+        "image": "HOSOMAKI HEALING.png"
+      },
+      "firstStarPower": {
+        "name": "STUDIED THE BLADE",
+        "image": "STUDIED THE BLADE.png"
+      },
+      "secondStarPower": {
+        "name": "NIGIRI NEMESIS",
+        "image": "NIGIRI NEMESIS.png"
+      },
+      "hypercharge": {
+        "name": "ALL YOU CAN EAT",
+        "image": "ALL YOU CAN EAT.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000086,
+      "name": "SHADE",
+      "firstGadget": {
+        "name": "LONGARMS",
+        "image": "LONGARMS.png"
+      },
+      "secondGadget": {
+        "name": "JUMP SCARE",
+        "image": "JUMP SCARE.png"
+      },
+      "firstStarPower": {
+        "name": "SPOOKY SPEEDSTER",
+        "image": "SPOOKY SPEEDSTER.png"
+      },
+      "secondStarPower": {
+        "name": "HARDENED HOODIE",
+        "image": "HARDENED HOODIE.png"
+      },
+      "hypercharge": {
+        "name": "THE FRIGHTNER",
+        "image": "THE FRIGHTNER.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000087,
+      "name": "JUJU",
+      "firstGadget": {
+        "name": "VOODOO CHILE",
+        "image": "VOODOO CHILE.png"
+      },
+      "secondGadget": {
+        "name": "ELEMENTALIST",
+        "image": "ELEMENTALIST.png"
+      },
+      "firstStarPower": {
+        "name": "GUARDED GRIS-GRIS",
+        "image": "GUARDED GRIS-GRIS.png"
+      },
+      "secondStarPower": {
+        "name": "NUMBING NEEDLES",
+        "image": "NUMBING NEEDLES.png"
+      },
+      "hypercharge": {
+        "name": "BOKOR",
+        "image": "BOKOR.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "thrower",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000089,
+      "name": "MEEPLE",
+      "firstGadget": {
+        "name": "MANSIONS OF MEEPLE",
+        "image": "MANSIONS OF MEEPLE.png"
+      },
+      "secondGadget": {
+        "name": "RAGEQUIT",
+        "image": "RAGEQUIT.png"
+      },
+      "firstStarPower": {
+        "name": "DO NOT PASS GO",
+        "image": "DO NOT PASS GO.png"
+      },
+      "secondStarPower": {
+        "name": "RULE BENDING",
+        "image": "RULE BENDING.png"
+      },
+      "hypercharge": {
+        "name": "THE LAST RULEBENDER",
+        "image": "THE LAST RULEBENDER.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000090,
+      "name": "OLLIE",
+      "firstGadget": {
+        "name": "REGULATE",
+        "image": "REGULATE.png"
+      },
+      "secondGadget": {
+        "name": "ALL EYEZ ON ME",
+        "image": "ALL EYEZ ON ME.png"
+      },
+      "firstStarPower": {
+        "name": "KICK, PUSH",
+        "image": "KICK, PUSH.png"
+      },
+      "secondStarPower": {
+        "name": "RENEGADE",
+        "image": "RENEGADE.png"
+      },
+      "hypercharge": {
+        "name": "AIN'T NO HALF-SUPERING",
+        "image": "AIN'T NO HALF-SUPERING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000091,
+      "name": "LUMI",
+      "firstGadget": {
+        "name": "HIT THE LIGHTS",
+        "image": "HIT THE LIGHTS.png"
+      },
+      "secondGadget": {
+        "name": "GRIM AND FROSTBITTEN",
+        "image": "GRIM AND FROSTBITTEN.png"
+      },
+      "firstStarPower": {
+        "name": "42% BURNT",
+        "image": "42% BURNT.png"
+      },
+      "secondStarPower": {
+        "name": "HALF-TIME",
+        "image": "HALF-TIME.png"
+      },
+      "hypercharge": {
+        "name": "DRUM SOLO",
+        "image": "DRUM SOLO.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000092,
+      "name": "FINX",
+      "firstGadget": {
+        "name": "BACK TO THE FINXTURE",
+        "image": "BACK TO THE FINXTURE.png"
+      },
+      "secondGadget": {
+        "name": "NO ESCAPE",
+        "image": "NO ESCAPE.png"
+      },
+      "firstStarPower": {
+        "name": "HIEROGLYPH HALT",
+        "image": "HIEROGLYPH HALT.png"
+      },
+      "secondStarPower": {
+        "name": "PRIMER",
+        "image": "PRIMER.png"
+      },
+      "hypercharge": {
+        "name": "TEMPORAL TRAVELING",
+        "image": "TEMPORAL TRAVELING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000093,
+      "name": "JAE-YONG",
+      "firstGadget": {
+        "name": "WEEKEND WARRIOR",
+        "image": "WEEKEND WARRIOR.png"
+      },
+      "secondGadget": {
+        "name": "TIME FOR A SLOW SONG",
+        "image": "TIME FOR A SLOW SONG.png"
+      },
+      "firstStarPower": {
+        "name": "THE CROWD GOES MILD",
+        "image": "THE CROWD GOES MILD.png"
+      },
+      "secondStarPower": {
+        "name": "EXTRA HIGH NOTE",
+        "image": "EXTRA HIGH NOTE.png"
+      },
+      "hypercharge": {
+        "name": "CROWD-PLEASEP",
+        "image": "CROWD-PLEASEP.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000094,
+      "name": "KAZE",
+      "firstGadget": {
+        "name": "GRACIOUS HOST",
+        "image": "GRACIOUS HOST.png"
+      },
+      "secondGadget": {
+        "name": "HENSOJUTSU",
+        "image": "HENSOJUTSU.png"
+      },
+      "firstStarPower": {
+        "name": "ADVANCED TECHNIQUES",
+        "image": "ADVANCED TECHNIQUES.png"
+      },
+      "secondStarPower": {
+        "name": "GRATUITY INCLUDED",
+        "image": "GRATUITY INCLUDED.png"
+      },
+      "hypercharge": {
+        "name": "ANCIENT ENERGY",
+        "image": "ANCIENT ENERGY.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "ultraLegendary",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000095,
+      "name": "ALLI",
+      "firstGadget": {
+        "name": "FEED THE GATORS",
+        "image": "FEED THE GATORS.png"
+      },
+      "secondGadget": {
+        "name": "COLD-BLOODED",
+        "image": "COLD-BLOODED.png"
+      },
+      "firstStarPower": {
+        "name": "LIZARD LIMBS",
+        "image": "LIZARD LIMBS.png"
+      },
+      "secondStarPower": {
+        "name": "YOU BETTER RUN, YOU BETTER TAKE COVER",
+        "image": "YOU BETTER RUN, YOU BETTER TAKE COVER.png"
+      },
+      "hypercharge": {
+        "name": "SWAMP SNACKING",
+        "image": "SWAMP SNACKING.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000096,
+      "name": "TRUNK",
+      "firstGadget": {
+        "name": "FOR THE QUEEN!",
+        "image": "FOR THE QUEEN!.png"
+      },
+      "secondGadget": {
+        "name": "WORKER ANTS",
+        "image": "WORKER ANTS.png"
+      },
+      "firstStarPower": {
+        "name": "NEW INSECT OVERLORDS",
+        "image": "NEW INSECT OVERLORDS.png"
+      },
+      "secondStarPower": {
+        "name": "COLONY SCOUTS",
+        "image": "COLONY SCOUTS.png"
+      },
+      "hypercharge": {
+        "name": "RETREAD",
+        "image": "RETREAD.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "epic",
+      "role": "tanker",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000097,
+      "name": "MINA",
+      "firstGadget": {
+        "name": "WINDMILL",
+        "image": "WINDMILL.png"
+      },
+      "secondGadget": {
+        "name": "CAPO-WHAT?",
+        "image": "CAPO-WHAT.png"
+      },
+      "firstStarPower": {
+        "name": "ZUM ZUM ZUM",
+        "image": "ZUM ZUM ZUM.png"
+      },
+      "secondStarPower": {
+        "name": "BLOWN AWAY",
+        "image": "BLOWN AWAY.png"
+      },
+      "hypercharge": {
+        "name": "TRIPLECANE",
+        "image": "TRIPLECANE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000098,
+      "name": "ZIGGY",
+      "firstGadget": {
+        "name": "ELECTRIC SHUFFLE",
+        "image": "ELECTRIC SHUFFLE.png"
+      },
+      "secondGadget": {
+        "name": "NOW YOU SEE ME...",
+        "image": "NOW YOU SEE ME....png"
+      },
+      "firstStarPower": {
+        "name": "THUNDERSTRUCK",
+        "image": "THUNDERSTRUCK.png"
+      },
+      "secondStarPower": {
+        "name": "THE GREAT ZIGGINI",
+        "image": "THE GREAT ZIGGINI.png"
+      },
+      "hypercharge": {
+        "name": "THE GRAND VORTEX",
+        "image": "THE GRAND VORTEX.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "controller",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000099,
+      "name": "PIERCE",
+      "firstGadget": {
+        "name": "BOTTOMLESS MAGS",
+        "image": "BOTTOMLESS MAGS.png"
+      },
+      "secondGadget": {
+        "name": "YOU ONLY BRAWL TWICE",
+        "image": "YOU ONLY BRAWL TWICE.png"
+      },
+      "firstStarPower": {
+        "name": "MISSION: SWIMPOSSIBLE",
+        "image": "MISSION SWIMPOSSIBLE.png"
+      },
+      "secondStarPower": {
+        "name": "SLIP 'N SNIPE",
+        "image": "SLIP N SNIPE.png"
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "legendary",
+      "role": "marksmen",
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2025-12-27T12:03:01.880Z"
+    },
+    {
+      "id": 16000100,
+      "name": "GIGI",
+      "firstGadget": {
+        "name": "LONGER STRINGS",
+        "image": "LONGER STRINGS.png"
+      },
+      "secondGadget": {
+        "name": "DISAPPEARING ACT",
+        "image": "DISAPPEARING ACT.png"
+      },
+      "firstStarPower": {
+        "name": "PLIÉ PROTECTION",
+        "image": "PLIÉ PROTECTION.png"
+      },
+      "secondStarPower": {
+        "name": "A HELPING HAND",
+        "image": "A HELPING HAND.png"
+      },
+      "hypercharge": {
+        "name": "PAS DE DEUX",
+        "image": "PAS DE DEUX.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    },
+    {
+      "id": 16000101,
+      "name": "GLOWBERT",
+      "firstGadget": {
+        "name": "SLIPPERY SAVIOR",
+        "image": "SLIPPERY SAVIOR.png"
+      },
+      "secondGadget": {
+        "name": "MORE LUMENS!",
+        "image": "MORE LUMENS!.png"
+      },
+      "firstStarPower": {
+        "name": "BIOTIC ECOSYSTEM",
+        "image": "BIOTIC ECOSYSTEM.png"
+      },
+      "secondStarPower": {
+        "name": "PARASITISM",
+        "image": "PARASITISM.png"
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "rare",
+      "role": "supporter",
+      "createdAt": "2025-12-26T13:20:38.140Z"
+    }
+  ]
+}

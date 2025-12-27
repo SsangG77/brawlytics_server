@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawlytics 관리자</title>
+    <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Brawlytics 브롤러 관리</h1>
+
+        <!-- 등록 폼 -->
+        <div class="section">
+            <h2 id="formTitle">브롤러 등록</h2>
+            <form id="brawlerForm" enctype="multipart/form-data">
+                <input type="hidden" id="editingId" name="editingId" value="">
+                <!-- 기본 정보 -->
+                <div class="form-group">
+                    <label>브롤러 이름 *</label>
+                    <input type="text" name="name" required placeholder="예: SHELLY">
+                </div>
+
+                <div class="form-group">
+                    <label>브롤러 이미지</label>
+                    <input type="file" name="brawler_image" accept="image/*">
+                    <img class="preview" id="preview_brawler" style="display:none;">
+                </div>
+
+                <!-- 가젯 -->
+                <h3>가젯</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>가젯 1 이름</label>
+                        <input type="text" name="first_gadget_name" placeholder="예: FAST FORWARD">
+                        <input type="file" name="first_gadget_image" accept="image/*">
+                        <img class="preview" id="preview_first_gadget" style="display:none;">
+                    </div>
+                    <div class="form-group">
+                        <label>가젯 2 이름</label>
+                        <input type="text" name="second_gadget_name" placeholder="예: CLAY PIGEONS">
+                        <input type="file" name="second_gadget_image" accept="image/*">
+                        <img class="preview" id="preview_second_gadget" style="display:none;">
+                    </div>
+                </div>
+
+                <!-- 스타파워 -->
+                <h3>스타파워</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>스타파워 1 이름</label>
+                        <input type="text" name="first_star_power_name" placeholder="예: SHELL SHOCK">
+                        <input type="file" name="first_star_power_image" accept="image/*">
+                        <img class="preview" id="preview_first_star_power" style="display:none;">
+                    </div>
+                    <div class="form-group">
+                        <label>스타파워 2 이름</label>
+                        <input type="text" name="second_star_power_name" placeholder="예: BAND-AID">
+                        <input type="file" name="second_star_power_image" accept="image/*">
+                        <img class="preview" id="preview_second_star_power" style="display:none;">
+                    </div>
+                </div>
+
+                <!-- 하이퍼차지 -->
+                <h3>하이퍼차지</h3>
+                <div class="form-group">
+                    <label>하이퍼차지 이름</label>
+                    <input type="text" name="hypercharge_name" placeholder="예: DOUBLE BARREL">
+                    <input type="file" name="hypercharge_image" accept="image/*">
+                    <img class="preview" id="preview_hypercharge" style="display:none;">
+                </div>
+
+                <!-- 버피 -->
+                <h3>버피</h3>
+                <div class="form-row-3">
+                    <div class="form-group">
+                        <label>가젯 버피 이름</label>
+                        <input type="text" name="gadget_buff_name">
+                        <input type="file" name="gadget_buff_image" accept="image/*">
+                        <img class="preview" id="preview_gadget_buff" style="display:none;">
+                    </div>
+                    <div class="form-group">
+                        <label>스타파워 버피 이름</label>
+                        <input type="text" name="star_power_buff_name">
+                        <input type="file" name="star_power_buff_image" accept="image/*">
+                        <img class="preview" id="preview_star_power_buff" style="display:none;">
+                    </div>
+                    <div class="form-group">
+                        <label>하이퍼차지 버피 이름</label>
+                        <input type="text" name="hypercharge_buff_name">
+                        <input type="file" name="hypercharge_buff_image" accept="image/*">
+                        <img class="preview" id="preview_hypercharge_buff" style="display:none;">
+                    </div>
+                </div>
+
+                <!-- 기어 -->
+                <h3>기어</h3>
+                <div class="gear-checkboxes">
+                    <label class="gear-checkbox">
+                        <input type="checkbox" name="rare_gears" value="speed" checked>
+                        <span>속도</span>
+                    </label>
+                    <label class="gear-checkbox">
+                        <input type="checkbox" name="rare_gears" value="health" checked>
+                        <span>체력</span>
+                    </label>
+                    <label class="gear-checkbox">
+                        <input type="checkbox" name="rare_gears" value="damage" checked>
+                        <span>데미지</span>
+                    </label>
+                    <label class="gear-checkbox">
+                        <input type="checkbox" name="rare_gears" value="vision" checked>
+                        <span>시야</span>
+                    </label>
+                    <label class="gear-checkbox">
+                        <input type="checkbox" name="rare_gears" value="shield" checked>
+                        <span>보호막</span>
+                    </label>
+                    <label class="gear-checkbox">
+                        <input type="checkbox" name="rare_gears" value="gadgetCooldown" checked>
+                        <span>가젯 쿨다운</span>
+                    </label>
+                </div>
+
+                <!-- 메타 정보 -->
+                <h3>메타 정보</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>희귀도 *</label>
+                        <select name="rarity" required>
+                            <option value="">선택하세요</option>
+                            <option value="basic">기본</option>
+                            <option value="rare">레어</option>
+                            <option value="superRare">슈퍼 레어</option>
+                            <option value="epic">에픽</option>
+                            <option value="mythic">미식</option>
+                            <option value="legendary">레전더리</option>
+                            <option value="ultraLegendary">울트라 레전더리</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>역할군 *</label>
+                        <select name="role" required>
+                            <option value="">선택하세요</option>
+                            <option value="tanker">탱커</option>
+                            <option value="assassin">암살자</option>
+                            <option value="supporter">서포터</option>
+                            <option value="controller">컨트롤러</option>
+                            <option value="damageDealer">딜러</option>
+                            <option value="marksmen">명사수</option>
+                            <option value="thrower">투척형</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <button type="submit" class="btn-submit">💾 저장</button>
+                    <button type="button" id="cancelBtn" class="btn-cancel" style="display: none;">❌ 취소</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- 브롤러 목록 -->
+        <div class="section">
+            <h2>등록된 브롤러 목록 (<span id="brawlerCount">0</span>개)</h2>
+
+            <!-- 역할별 탭 -->
+            <div class="role-tabs">
+                <button class="tab-btn active" data-role="all">전체</button>
+                <button class="tab-btn" data-role="tanker">탱커</button>
+                <button class="tab-btn" data-role="assassin">암살자</button>
+                <button class="tab-btn" data-role="supporter">서포터</button>
+                <button class="tab-btn" data-role="controller">컨트롤러</button>
+                <button class="tab-btn" data-role="damageDealer">딜러</button>
+                <button class="tab-btn" data-role="marksmen">명사수</button>
+                <button class="tab-btn" data-role="thrower">투척형</button>
+            </div>
+
+            <div id="brawlerList" class="brawler-list">
+                <!-- JavaScript로 동적 생성 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/admin.js"></script>
+</body>
+</html>

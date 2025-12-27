@@ -3,7 +3,10 @@ const path = require('path');
 
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname)));
+
+// 정적 파일 제공
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 const PORT = process.env.PORT || 3000;
 
@@ -12,13 +15,20 @@ const userRouter = require('./routes/user');
 const battlelogRouter = require('./routes/battlelog');
 const trophiesRouter = require('./routes/trophies');
 const adminRouter = require('./routes/admin');
+const hyperchargeRouter = require('./routes/hypercharge');
 const { initializeBrawlersTable } = require('./services/brawlerService');
 
 app.use('/brawlers', brawlersRouter);
 app.use('/user', userRouter);
 app.use('/battlelog', battlelogRouter);
 app.use('/trophies', trophiesRouter);
-app.use('/', adminRouter);
+app.use('/admin', adminRouter);
+app.use('/hypercharge', hyperchargeRouter);
+
+// 관리자 페이지 라우트
+app.get('/admin', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'admin.html'));
+});
 
 app.get('/app-ads.txt', (req, res) => {
 	res.sendFile(path.join(__dirname, 'app-ads.txt'));
