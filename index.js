@@ -16,6 +16,7 @@ const battlelogRouter = require('./routes/battlelog');
 const trophiesRouter = require('./routes/trophies');
 const adminRouter = require('./routes/admin');
 const hyperchargeRouter = require('./routes/hypercharge');
+const buffiesRouter = require('./routes/buffies');
 const { initializeBrawlersTable } = require('./services/brawlerService');
 
 app.use('/brawlers', brawlersRouter);
@@ -24,6 +25,7 @@ app.use('/battlelog', battlelogRouter);
 app.use('/trophies', trophiesRouter);
 app.use('/admin', adminRouter);
 app.use('/hypercharge', hyperchargeRouter);
+app.use('/buffies', buffiesRouter);
 
 // 관리자 페이지 라우트
 app.get('/admin', (req, res) => {

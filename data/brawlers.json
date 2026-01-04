@@ -24,16 +24,16 @@
         "image": "DOUBLE BARREL.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "SHELLY'S GADGET BUFFIE",
+        "image": "SHELLY'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "SHELLY'S STAR BUFFIE",
+        "image": "SHELLY'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "SHELLY'S HYPER BUFFIE",
+        "image": "SHELLY'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -43,9 +43,10 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "rare",
+      "rarity": "basic",
       "role": "damageDealer",
-      "createdAt": "2025-12-26T13:20:38.139Z"
+      "createdAt": "2025-12-26T13:20:38.139Z",
+      "updatedAt": "2026-01-04T13:12:02.495Z"
     },
     {
       "id": 16000001,

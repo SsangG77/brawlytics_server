@@ -72,7 +72,6 @@ router.post('/brawlers', upload.fields([
             first_gadget_name, second_gadget_name,
             first_star_power_name, second_star_power_name,
             hypercharge_name,
-            gadget_buff_name, star_power_buff_name, hypercharge_buff_name,
             rarity, role
         } = req.body;
 
@@ -108,12 +107,12 @@ router.post('/brawlers', upload.fields([
             firstStarPower: createItemObject(first_star_power_name),
             secondStarPower: createItemObject(second_star_power_name),
             hypercharge: createItemObject(hypercharge_name),
-            gadgetBuff: createItemObject(gadget_buff_name),
-            starPowerBuff: createItemObject(star_power_buff_name),
-            hyperchargeBuff: createItemObject(hypercharge_buff_name),
+            gadgetBuff: createItemObject(`${name}'S GADGET BUFFIE`),
+            starPowerBuff: createItemObject(`${name}'S STAR BUFFIE`),
+            hyperchargeBuff: createItemObject(`${name}'S HYPER BUFFIE`),
             rareGears: rare_gears,
-            rarity: rarity,
-            role: role,
+            rarity: rarity || 'rare',
+            role: role || 'damageDealer',
             createdAt: new Date().toISOString()
         };
 
@@ -149,7 +148,6 @@ router.put('/brawlers/:id', upload.fields([
             first_gadget_name, second_gadget_name,
             first_star_power_name, second_star_power_name,
             hypercharge_name,
-            gadget_buff_name, star_power_buff_name, hypercharge_buff_name,
             rarity, role
         } = req.body;
 
@@ -187,12 +185,12 @@ router.put('/brawlers/:id', upload.fields([
             firstStarPower: createItemObject(first_star_power_name),
             secondStarPower: createItemObject(second_star_power_name),
             hypercharge: createItemObject(hypercharge_name),
-            gadgetBuff: createItemObject(gadget_buff_name),
-            starPowerBuff: createItemObject(star_power_buff_name),
-            hyperchargeBuff: createItemObject(hypercharge_buff_name),
+            gadgetBuff: createItemObject(`${name}'S GADGET BUFFIE`),
+            starPowerBuff: createItemObject(`${name}'S STAR BUFFIE`),
+            hyperchargeBuff: createItemObject(`${name}'S HYPER BUFFIE`),
             rareGears: rare_gears,
-            rarity: rarity,
-            role: role,
+            rarity: rarity || 'rare',
+            role: role || 'damageDealer',
             createdAt: existingBrawler.createdAt || existingBrawler.created_at,
             updatedAt: new Date().toISOString()
         };

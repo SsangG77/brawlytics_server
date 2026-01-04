@@ -36,11 +36,11 @@ const storage = multer.diskStorage({
         } else if (file.fieldname === 'hypercharge_image') {
             itemName = req.body.hypercharge_name;
         } else if (file.fieldname === 'gadget_buff_image') {
-            itemName = req.body.gadget_buff_name;
+            itemName = `${req.body.name}'S GADGET BUFFIE`;
         } else if (file.fieldname === 'star_power_buff_image') {
-            itemName = req.body.star_power_buff_name;
+            itemName = `${req.body.name}'S STAR BUFFIE`;
         } else if (file.fieldname === 'hypercharge_buff_image') {
-            itemName = req.body.hypercharge_buff_name;
+            itemName = `${req.body.name}'S HYPER BUFFIE`;
         }
 
         // 파일명에 위험한 문자만 제거: < > : " / \ | ? *
