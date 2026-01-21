@@ -4634,16 +4634,16 @@
         "image": null
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "GLOWBERT'S GADGET BUFFIE",
+        "image": "GLOWBERT'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "GLOWBERT'S STAR BUFFIE",
+        "image": "GLOWBERT'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "GLOWBERT'S HYPER BUFFIE",
+        "image": "GLOWBERT'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -4653,9 +4653,10 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "rare",
+      "rarity": "mythic",
       "role": "supporter",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-01-21T13:35:28.995Z"
     }
   ]
 }

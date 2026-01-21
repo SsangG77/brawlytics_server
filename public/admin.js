@@ -295,8 +295,7 @@ async function editBrawler(id) {
             };
         }
 
-        // 버피
-        document.querySelector('input[name="gadget_buff_name"]').value = brawler.gadgetBuff?.name || '';
+        // 버피 이미지 미리보기
         if (brawler.gadgetBuff?.name) {
             const preview = document.getElementById('preview_gadget_buff');
             const imageName = brawler.gadgetBuff.image || `${brawler.gadgetBuff.name}.png`;
@@ -308,7 +307,6 @@ async function editBrawler(id) {
             };
         }
 
-        document.querySelector('input[name="star_power_buff_name"]').value = brawler.starPowerBuff?.name || '';
         if (brawler.starPowerBuff?.name) {
             const preview = document.getElementById('preview_star_power_buff');
             const imageName = brawler.starPowerBuff.image || `${brawler.starPowerBuff.name}.png`;
@@ -320,7 +318,6 @@ async function editBrawler(id) {
             };
         }
 
-        document.querySelector('input[name="hypercharge_buff_name"]').value = brawler.hyperchargeBuff?.name || '';
         if (brawler.hyperchargeBuff?.name) {
             const preview = document.getElementById('preview_hypercharge_buff');
             const imageName = brawler.hyperchargeBuff.image || `${brawler.hyperchargeBuff.name}.png`;

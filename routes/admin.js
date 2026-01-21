@@ -107,9 +107,9 @@ router.post('/brawlers', upload.fields([
             firstStarPower: createItemObject(first_star_power_name),
             secondStarPower: createItemObject(second_star_power_name),
             hypercharge: createItemObject(hypercharge_name),
-            gadgetBuff: createItemObject(`${name}'S GADGET BUFFIE`),
-            starPowerBuff: createItemObject(`${name}'S STAR BUFFIE`),
-            hyperchargeBuff: createItemObject(`${name}'S HYPER BUFFIE`),
+            gadgetBuff: files.gadget_buff_image ? createItemObject(`${name}'S GADGET BUFFIE`) : createItemObject(''),
+            starPowerBuff: files.star_power_buff_image ? createItemObject(`${name}'S STAR BUFFIE`) : createItemObject(''),
+            hyperchargeBuff: files.hypercharge_buff_image ? createItemObject(`${name}'S HYPER BUFFIE`) : createItemObject(''),
             rareGears: rare_gears,
             rarity: rarity || 'rare',
             role: role || 'damageDealer',
@@ -176,7 +176,7 @@ router.put('/brawlers/:id', upload.fields([
         // 기존 브롤러 데이터 가져오기
         const existingBrawler = brawlersData.brawlers[index];
 
-        // 업데이트된 브롤러 객체 생성
+        // 업데이트된 브롤러 객체 생성 (버피는 이미지 업로드 시 또는 기존 데이터 유지)
         const updatedBrawler = {
             id: id,
             name,
@@ -185,9 +185,9 @@ router.put('/brawlers/:id', upload.fields([
             firstStarPower: createItemObject(first_star_power_name),
             secondStarPower: createItemObject(second_star_power_name),
             hypercharge: createItemObject(hypercharge_name),
-            gadgetBuff: createItemObject(`${name}'S GADGET BUFFIE`),
-            starPowerBuff: createItemObject(`${name}'S STAR BUFFIE`),
-            hyperchargeBuff: createItemObject(`${name}'S HYPER BUFFIE`),
+            gadgetBuff: files.gadget_buff_image ? createItemObject(`${name}'S GADGET BUFFIE`) : existingBrawler.gadgetBuff || createItemObject(''),
+            starPowerBuff: files.star_power_buff_image ? createItemObject(`${name}'S STAR BUFFIE`) : existingBrawler.starPowerBuff || createItemObject(''),
+            hyperchargeBuff: files.hypercharge_buff_image ? createItemObject(`${name}'S HYPER BUFFIE`) : existingBrawler.hyperchargeBuff || createItemObject(''),
             rareGears: rare_gears,
             rarity: rarity || 'rare',
             role: role || 'damageDealer',
