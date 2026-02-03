@@ -16,14 +16,31 @@ function toImageName(name) {
 }
 
 // 아이템 객체 생성
-function createItemObject(name) {
+function createItemObject(name, ext = '.png') {
     if (!name || name === '') {
         return { name: '', image: null };
     }
+    const safeName = name.replace(/[<>:"/\\|?*]/g, '');
     return {
         name: name,
-        image: toImageName(name)
+        image: `${safeName}${ext}`
     };
+}
+
+// 업로드된 파일에서 확장자 추출
+function getUploadedExt(files, fieldName) {
+    if (files && files[fieldName] && files[fieldName][0]) {
+        return path.extname(files[fieldName][0].filename);
+    }
+    return null;
+}
+
+// 기존 이미지 확장자 추출
+function getExistingExt(existingItem) {
+    if (existingItem && existingItem.image) {
+        return path.extname(existingItem.image);
+    }
+    return '.png';
 }
 
 router.get('/save', async (req, res) => {
@@ -129,6 +146,23 @@ router.post('/brawlers', upload.fields([
     }
 });
 
+// 기존 이미지 파일 삭제 함수 (새로 업로드된 파일 확장자 제외)
+function deleteExistingImages(brawlerDir, baseName, excludeExt) {
+    if (!fs.existsSync(brawlerDir)) return;
+
+    const extensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp'];
+    extensions.forEach(ext => {
+        // 새로 업로드된 파일은 제외
+        if (excludeExt && ext.toLowerCase() === excludeExt.toLowerCase()) return;
+
+        const filePath = path.join(brawlerDir, `${baseName}${ext}`);
+        if (fs.existsSync(filePath)) {
+            fs.unlinkSync(filePath);
+            console.log(`Deleted existing image: ${filePath}`);
+        }
+    });
+}
+
 // 브롤러 수정
 router.put('/brawlers/:id', upload.fields([
     { name: 'brawler_image', maxCount: 1 },
@@ -176,18 +210,89 @@ router.put('/brawlers/:id', upload.fields([
         // 기존 브롤러 데이터 가져오기
         const existingBrawler = brawlersData.brawlers[index];
 
-        // 업데이트된 브롤러 객체 생성 (버피는 이미지 업로드 시 또는 기존 데이터 유지)
+        // 브롤러 폴더 경로
+        const brawlerDir = path.join(__dirname, '../uploads/brawlers', name);
+
+        // 새 이미지 업로드 시 기존 이미지 삭제 (새로 업로드된 파일 확장자는 제외)
+        if (files.brawler_image) {
+            const newExt = path.extname(files.brawler_image[0].filename);
+            const baseName = name.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.first_gadget_image && first_gadget_name) {
+            const newExt = path.extname(files.first_gadget_image[0].filename);
+            const baseName = first_gadget_name.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.second_gadget_image && second_gadget_name) {
+            const newExt = path.extname(files.second_gadget_image[0].filename);
+            const baseName = second_gadget_name.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.first_star_power_image && first_star_power_name) {
+            const newExt = path.extname(files.first_star_power_image[0].filename);
+            const baseName = first_star_power_name.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.second_star_power_image && second_star_power_name) {
+            const newExt = path.extname(files.second_star_power_image[0].filename);
+            const baseName = second_star_power_name.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.hypercharge_image && hypercharge_name) {
+            const newExt = path.extname(files.hypercharge_image[0].filename);
+            const baseName = hypercharge_name.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.gadget_buff_image) {
+            const newExt = path.extname(files.gadget_buff_image[0].filename);
+            const baseName = `${name}'S GADGET BUFFIE`.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.star_power_buff_image) {
+            const newExt = path.extname(files.star_power_buff_image[0].filename);
+            const baseName = `${name}'S STAR BUFFIE`.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+        if (files.hypercharge_buff_image) {
+            const newExt = path.extname(files.hypercharge_buff_image[0].filename);
+            const baseName = `${name}'S HYPER BUFFIE`.replace(/[<>:"/\\|?*]/g, '');
+            deleteExistingImages(brawlerDir, baseName, newExt);
+        }
+
+        // 업데이트된 브롤러 객체 생성 (업로드된 파일의 확장자 사용, 없으면 기존 확장자 유지)
         const updatedBrawler = {
             id: id,
             name,
-            firstGadget: createItemObject(first_gadget_name),
-            secondGadget: createItemObject(second_gadget_name),
-            firstStarPower: createItemObject(first_star_power_name),
-            secondStarPower: createItemObject(second_star_power_name),
-            hypercharge: createItemObject(hypercharge_name),
-            gadgetBuff: files.gadget_buff_image ? createItemObject(`${name}'S GADGET BUFFIE`) : existingBrawler.gadgetBuff || createItemObject(''),
-            starPowerBuff: files.star_power_buff_image ? createItemObject(`${name}'S STAR BUFFIE`) : existingBrawler.starPowerBuff || createItemObject(''),
-            hyperchargeBuff: files.hypercharge_buff_image ? createItemObject(`${name}'S HYPER BUFFIE`) : existingBrawler.hyperchargeBuff || createItemObject(''),
+            firstGadget: createItemObject(
+                first_gadget_name,
+                getUploadedExt(files, 'first_gadget_image') || getExistingExt(existingBrawler.firstGadget)
+            ),
+            secondGadget: createItemObject(
+                second_gadget_name,
+                getUploadedExt(files, 'second_gadget_image') || getExistingExt(existingBrawler.secondGadget)
+            ),
+            firstStarPower: createItemObject(
+                first_star_power_name,
+                getUploadedExt(files, 'first_star_power_image') || getExistingExt(existingBrawler.firstStarPower)
+            ),
+            secondStarPower: createItemObject(
+                second_star_power_name,
+                getUploadedExt(files, 'second_star_power_image') || getExistingExt(existingBrawler.secondStarPower)
+            ),
+            hypercharge: createItemObject(
+                hypercharge_name,
+                getUploadedExt(files, 'hypercharge_image') || getExistingExt(existingBrawler.hypercharge)
+            ),
+            gadgetBuff: files.gadget_buff_image
+                ? createItemObject(`${name}'S GADGET BUFFIE`, getUploadedExt(files, 'gadget_buff_image'))
+                : existingBrawler.gadgetBuff || createItemObject(''),
+            starPowerBuff: files.star_power_buff_image
+                ? createItemObject(`${name}'S STAR BUFFIE`, getUploadedExt(files, 'star_power_buff_image'))
+                : existingBrawler.starPowerBuff || createItemObject(''),
+            hyperchargeBuff: files.hypercharge_buff_image
+                ? createItemObject(`${name}'S HYPER BUFFIE`, getUploadedExt(files, 'hypercharge_buff_image'))
+                : existingBrawler.hyperchargeBuff || createItemObject(''),
             rareGears: rare_gears,
             rarity: rarity || 'rare',
             role: role || 'damageDealer',
