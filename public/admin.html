@@ -24,7 +24,13 @@
                 <div class="form-group">
                     <label>브롤러 이미지</label>
                     <input type="file" name="brawler_image" accept="image/*">
-                    <img class="preview" id="preview_brawler" style="display:none;">
+                    <div class="image-preview-container">
+                        <img class="preview" id="preview_brawler" style="display:none;">
+                        <label class="delete-checkbox" id="delete_brawler_container" style="display:none;">
+                            <input type="checkbox" name="delete_brawler_image">
+                            <span>🗑️ 이미지 삭제</span>
+                        </label>
+                    </div>
                 </div>
 
                 <!-- 가젯 -->
@@ -34,13 +40,25 @@
                         <label>가젯 1 이름</label>
                         <input type="text" name="first_gadget_name" placeholder="예: FAST FORWARD">
                         <input type="file" name="first_gadget_image" accept="image/*">
-                        <img class="preview" id="preview_first_gadget" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_first_gadget" style="display:none;">
+                            <label class="delete-checkbox" id="delete_first_gadget_container" style="display:none;">
+                                <input type="checkbox" name="delete_first_gadget_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>가젯 2 이름</label>
                         <input type="text" name="second_gadget_name" placeholder="예: CLAY PIGEONS">
                         <input type="file" name="second_gadget_image" accept="image/*">
-                        <img class="preview" id="preview_second_gadget" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_second_gadget" style="display:none;">
+                            <label class="delete-checkbox" id="delete_second_gadget_container" style="display:none;">
+                                <input type="checkbox" name="delete_second_gadget_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
 
@@ -51,13 +69,25 @@
                         <label>스타파워 1 이름</label>
                         <input type="text" name="first_star_power_name" placeholder="예: SHELL SHOCK">
                         <input type="file" name="first_star_power_image" accept="image/*">
-                        <img class="preview" id="preview_first_star_power" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_first_star_power" style="display:none;">
+                            <label class="delete-checkbox" id="delete_first_star_power_container" style="display:none;">
+                                <input type="checkbox" name="delete_first_star_power_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>스타파워 2 이름</label>
                         <input type="text" name="second_star_power_name" placeholder="예: BAND-AID">
                         <input type="file" name="second_star_power_image" accept="image/*">
-                        <img class="preview" id="preview_second_star_power" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_second_star_power" style="display:none;">
+                            <label class="delete-checkbox" id="delete_second_star_power_container" style="display:none;">
+                                <input type="checkbox" name="delete_second_star_power_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
 
@@ -67,7 +97,13 @@
                     <label>하이퍼차지 이름</label>
                     <input type="text" name="hypercharge_name" placeholder="예: DOUBLE BARREL">
                     <input type="file" name="hypercharge_image" accept="image/*">
-                    <img class="preview" id="preview_hypercharge" style="display:none;">
+                    <div class="image-preview-container">
+                        <img class="preview" id="preview_hypercharge" style="display:none;">
+                        <label class="delete-checkbox" id="delete_hypercharge_container" style="display:none;">
+                            <input type="checkbox" name="delete_hypercharge_image">
+                            <span>🗑️ 삭제</span>
+                        </label>
+                    </div>
                 </div>
 
                 <!-- 버피 -->
@@ -79,17 +115,35 @@
                     <div class="form-group">
                         <label>가젯 버피 이미지</label>
                         <input type="file" name="gadget_buff_image" accept="image/*">
-                        <img class="preview" id="preview_gadget_buff" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_gadget_buff" style="display:none;">
+                            <label class="delete-checkbox" id="delete_gadget_buff_container" style="display:none;">
+                                <input type="checkbox" name="delete_gadget_buff_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>스타파워 버피 이미지</label>
                         <input type="file" name="star_power_buff_image" accept="image/*">
-                        <img class="preview" id="preview_star_power_buff" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_star_power_buff" style="display:none;">
+                            <label class="delete-checkbox" id="delete_star_power_buff_container" style="display:none;">
+                                <input type="checkbox" name="delete_star_power_buff_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>하이퍼차지 버피 이미지</label>
                         <input type="file" name="hypercharge_buff_image" accept="image/*">
-                        <img class="preview" id="preview_hypercharge_buff" style="display:none;">
+                        <div class="image-preview-container">
+                            <img class="preview" id="preview_hypercharge_buff" style="display:none;">
+                            <label class="delete-checkbox" id="delete_hypercharge_buff_container" style="display:none;">
+                                <input type="checkbox" name="delete_hypercharge_buff_image">
+                                <span>🗑️ 삭제</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
 
