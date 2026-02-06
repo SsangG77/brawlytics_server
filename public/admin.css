@@ -384,3 +384,39 @@ h3 {
     font-size: 14px;
     color: #333;
 }
+
+/* 이미지 삭제 체크박스 스타일 */
+.image-preview-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.delete-checkbox {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #fff3f3;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.delete-checkbox:hover {
+    background: #ffe0e0;
+}
+
+.delete-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.delete-checkbox span {
+    color: #e74c3c;
+    font-size: 13px;
+    font-weight: 600;
+}

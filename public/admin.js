@@ -4,6 +4,9 @@ document.querySelectorAll('input[type="file"]').forEach(input => {
         const file = e.target.files[0];
         const previewId = 'preview_' + e.target.name.replace('_image', '');
         const preview = document.getElementById(previewId);
+        const deleteContainerId = 'delete_' + e.target.name.replace('_image', '') + '_container';
+        const deleteContainer = document.getElementById(deleteContainerId);
+        const deleteCheckbox = document.querySelector(`input[name="delete_${e.target.name}"]`);
 
         if (file && preview) {
             const reader = new FileReader();
@@ -12,6 +15,14 @@ document.querySelectorAll('input[type="file"]').forEach(input => {
                 preview.style.display = 'block';
             };
             reader.readAsDataURL(file);
+
+            // 새 이미지 업로드 시 삭제 체크박스 숨기고 체크 해제
+            if (deleteContainer) {
+                deleteContainer.style.display = 'none';
+            }
+            if (deleteCheckbox) {
+                deleteCheckbox.checked = false;
+            }
         }
     });
 });
@@ -199,6 +210,13 @@ function cancelEdit() {
     document.querySelectorAll('.preview').forEach(img => img.style.display = 'none');
     document.querySelectorAll('input[name="rare_gears"]').forEach(checkbox => checkbox.checked = true);
     document.getElementById('cancelBtn').style.display = 'none';
+
+    // 삭제 체크박스 숨기기 및 초기화
+    document.querySelectorAll('.delete-checkbox').forEach(container => {
+        container.style.display = 'none';
+        const checkbox = container.querySelector('input[type="checkbox"]');
+        if (checkbox) checkbox.checked = false;
+    });
 }
 
 // 브롤러 수정
@@ -223,12 +241,15 @@ async function editBrawler(id) {
 
         // 브롤러 이미지
         const brawlerImagePreview = document.getElementById('preview_brawler');
+        const brawlerDeleteContainer = document.getElementById('delete_brawler_container');
         brawlerImagePreview.src = `${brawlerFolder}/${brawler.name}.png`;
         brawlerImagePreview.style.display = 'block';
+        if (brawlerDeleteContainer) brawlerDeleteContainer.style.display = 'flex';
         brawlerImagePreview.onerror = () => {
             brawlerImagePreview.src = `${brawlerFolder}/${brawler.name}.jpg`;
             brawlerImagePreview.onerror = () => {
                 brawlerImagePreview.style.display = 'none';
+                if (brawlerDeleteContainer) brawlerDeleteContainer.style.display = 'none';
             };
         };
 
@@ -236,24 +257,34 @@ async function editBrawler(id) {
         document.querySelector('input[name="first_gadget_name"]').value = brawler.firstGadget?.name || '';
         if (brawler.firstGadget?.name) {
             const preview = document.getElementById('preview_first_gadget');
+            const deleteContainer = document.getElementById('delete_first_gadget_container');
             const imageName = brawler.firstGadget.image || `${brawler.firstGadget.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.firstGadget.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
         document.querySelector('input[name="second_gadget_name"]').value = brawler.secondGadget?.name || '';
         if (brawler.secondGadget?.name) {
             const preview = document.getElementById('preview_second_gadget');
+            const deleteContainer = document.getElementById('delete_second_gadget_container');
             const imageName = brawler.secondGadget.image || `${brawler.secondGadget.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.secondGadget.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
@@ -261,24 +292,34 @@ async function editBrawler(id) {
         document.querySelector('input[name="first_star_power_name"]').value = brawler.firstStarPower?.name || '';
         if (brawler.firstStarPower?.name) {
             const preview = document.getElementById('preview_first_star_power');
+            const deleteContainer = document.getElementById('delete_first_star_power_container');
             const imageName = brawler.firstStarPower.image || `${brawler.firstStarPower.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.firstStarPower.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
         document.querySelector('input[name="second_star_power_name"]').value = brawler.secondStarPower?.name || '';
         if (brawler.secondStarPower?.name) {
             const preview = document.getElementById('preview_second_star_power');
+            const deleteContainer = document.getElementById('delete_second_star_power_container');
             const imageName = brawler.secondStarPower.image || `${brawler.secondStarPower.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.secondStarPower.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
@@ -286,46 +327,66 @@ async function editBrawler(id) {
         document.querySelector('input[name="hypercharge_name"]').value = brawler.hypercharge?.name || '';
         if (brawler.hypercharge?.name) {
             const preview = document.getElementById('preview_hypercharge');
+            const deleteContainer = document.getElementById('delete_hypercharge_container');
             const imageName = brawler.hypercharge.image || `${brawler.hypercharge.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.hypercharge.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
         // 버피 이미지 미리보기
         if (brawler.gadgetBuff?.name) {
             const preview = document.getElementById('preview_gadget_buff');
+            const deleteContainer = document.getElementById('delete_gadget_buff_container');
             const imageName = brawler.gadgetBuff.image || `${brawler.gadgetBuff.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.gadgetBuff.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
         if (brawler.starPowerBuff?.name) {
             const preview = document.getElementById('preview_star_power_buff');
+            const deleteContainer = document.getElementById('delete_star_power_buff_container');
             const imageName = brawler.starPowerBuff.image || `${brawler.starPowerBuff.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.starPowerBuff.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
         if (brawler.hyperchargeBuff?.name) {
             const preview = document.getElementById('preview_hypercharge_buff');
+            const deleteContainer = document.getElementById('delete_hypercharge_buff_container');
             const imageName = brawler.hyperchargeBuff.image || `${brawler.hyperchargeBuff.name}.png`;
             preview.src = `${brawlerFolder}/${imageName}`;
             preview.style.display = 'block';
+            if (deleteContainer) deleteContainer.style.display = 'flex';
             preview.onerror = () => {
                 preview.src = `${brawlerFolder}/${brawler.hyperchargeBuff.name}.jpg`;
-                preview.onerror = () => preview.style.display = 'none';
+                preview.onerror = () => {
+                    preview.style.display = 'none';
+                    if (deleteContainer) deleteContainer.style.display = 'none';
+                };
             };
         }
 
