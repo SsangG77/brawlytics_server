@@ -341,7 +341,7 @@ async function editBrawler(id) {
             };
         }
 
-        // 버피 이미지 미리보기
+        // 버피 이미지 미리보기 (이름이 있으면 삭제 버튼 표시, 이미지 없어도)
         if (brawler.gadgetBuff?.name) {
             const preview = document.getElementById('preview_gadget_buff');
             const deleteContainer = document.getElementById('delete_gadget_buff_container');
@@ -353,7 +353,7 @@ async function editBrawler(id) {
                 preview.src = `${brawlerFolder}/${brawler.gadgetBuff.name}.jpg`;
                 preview.onerror = () => {
                     preview.style.display = 'none';
-                    if (deleteContainer) deleteContainer.style.display = 'none';
+                    // 이미지 없어도 삭제 버튼은 유지
                 };
             };
         }
@@ -369,7 +369,7 @@ async function editBrawler(id) {
                 preview.src = `${brawlerFolder}/${brawler.starPowerBuff.name}.jpg`;
                 preview.onerror = () => {
                     preview.style.display = 'none';
-                    if (deleteContainer) deleteContainer.style.display = 'none';
+                    // 이미지 없어도 삭제 버튼은 유지
                 };
             };
         }
@@ -385,7 +385,7 @@ async function editBrawler(id) {
                 preview.src = `${brawlerFolder}/${brawler.hyperchargeBuff.name}.jpg`;
                 preview.onerror = () => {
                     preview.style.display = 'none';
-                    if (deleteContainer) deleteContainer.style.display = 'none';
+                    // 이미지 없어도 삭제 버튼은 유지
                 };
             };
         }
