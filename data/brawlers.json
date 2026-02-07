@@ -4634,16 +4634,16 @@
         "image": null
       },
       "gadgetBuff": {
-        "name": "GLOWBERT'S GADGET BUFFIE",
-        "image": "GLOWBERT'S GADGET BUFFIE.png"
+        "name": "",
+        "image": null
       },
       "starPowerBuff": {
-        "name": "GLOWBERT'S STAR BUFFIE",
-        "image": "GLOWBERT'S STAR BUFFIE.png"
+        "name": "",
+        "image": null
       },
       "hyperchargeBuff": {
-        "name": "GLOWBERT'S HYPER BUFFIE",
-        "image": "GLOWBERT'S HYPER BUFFIE.png"
+        "name": "",
+        "image": null
       },
       "rareGears": [
         "speed",
