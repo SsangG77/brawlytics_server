@@ -4,7 +4,6 @@ const { fetchBrawlStarsData } = require('../services/brawlStarsAPI');
 const { validatePlayerTag } = require('../middleware/validatePlayerTag');
 const fs = require('fs');
 const path = require('path');
-const db = require('../db');
 
 const dataPath = path.join(__dirname, '../data/brawlers.json');
 
@@ -23,38 +22,7 @@ router.get('/', validatePlayerTag, async(req, res) => {
             adminBrawlers = brawlersData.brawlers || [];
         }
 
-        // 하이퍼차지 및 버피 소유 정보 조회
-        let userHypercharges = [];
-        let userBuffies = [];
-        try {
-            const userResult = await db.query(
-                'SELECT id FROM users WHERE tag = $1',
-                [playertag]
-            );
-
-            if (userResult.rows.length > 0) {
-                const userId = userResult.rows[0].id;
-
-                // 하이퍼차지 조회
-                const hyperchargeResult = await db.query(
-                    'SELECT hypercharge_name FROM user_hypercharges WHERE user_id = $1 AND owned = true',
-                    [userId]
-                );
-                userHypercharges = hyperchargeResult.rows.map(row => row.hypercharge_name);
-
-                // 버피 조회
-                const buffieResult = await db.query(
-                    'SELECT buffie_name FROM user_buffies WHERE user_id = $1 AND owned = true',
-                    [userId]
-                );
-                userBuffies = buffieResult.rows.map(row => row.buffie_name);
-            }
-        } catch (dbError) {
-            console.error('Error fetching hypercharges/buffies from DB:', dbError);
-            // DB 에러가 나도 계속 진행
-        }
-
-        // JSON 브롤러 배열을 기준으로 비교
+        // JSON 브롤러 배열을 기준으로 비교 (하이퍼차지/버피는 API에서 직접 제공)
         const comparedBrawlers = adminBrawlers.map(adminBrawler => {
             // 플레이어가 해당 브롤러를 가지고 있는지 확인 (ID 또는 이름으로 매칭)
             const playerBrawler = playerBrawlers.find(
@@ -123,40 +91,34 @@ router.get('/', validatePlayerTag, async(req, res) => {
                         : false
                 };
 
-                // 하이퍼차지
+                // 하이퍼차지 (API의 hyperCharges 배열에서 확인)
                 result.hypercharge = {
                     name: adminBrawler.hypercharge?.name || '',
                     image: adminBrawler.hypercharge?.image || null,
                     owned: adminBrawler.hypercharge?.name
-                        ? userHypercharges.includes(adminBrawler.hypercharge.name)
+                        ? playerBrawler.hyperCharges?.some(hc => hc.name === adminBrawler.hypercharge.name) || false
                         : false
                 };
 
-                // 가젯 버피
+                // 가젯 버피 (API의 buffies.gadget에서 확인)
                 result.gadgetBuff = {
                     name: adminBrawler.gadgetBuff?.name || '',
                     image: adminBrawler.gadgetBuff?.image || null,
-                    owned: adminBrawler.gadgetBuff?.name
-                        ? userBuffies.includes(adminBrawler.gadgetBuff.name)
-                        : false
+                    owned: playerBrawler.buffies?.gadget || false
                 };
 
-                // 스타파워 버피
+                // 스타파워 버피 (API의 buffies.starPower에서 확인)
                 result.starPowerBuff = {
                     name: adminBrawler.starPowerBuff?.name || '',
                     image: adminBrawler.starPowerBuff?.image || null,
-                    owned: adminBrawler.starPowerBuff?.name
-                        ? userBuffies.includes(adminBrawler.starPowerBuff.name)
-                        : false
+                    owned: playerBrawler.buffies?.starPower || false
                 };
 
-                // 하이퍼차지 버피
+                // 하이퍼차지 버피 (API의 buffies.hyperCharge에서 확인)
                 result.hyperchargeBuff = {
                     name: adminBrawler.hyperchargeBuff?.name || '',
                     image: adminBrawler.hyperchargeBuff?.image || null,
-                    owned: adminBrawler.hyperchargeBuff?.name
-                        ? userBuffies.includes(adminBrawler.hyperchargeBuff.name)
-                        : false
+                    owned: playerBrawler.buffies?.hyperCharge || false
                 };
 
                 // 기어 배열
@@ -200,40 +162,32 @@ router.get('/', validatePlayerTag, async(req, res) => {
                     owned: false
                 };
 
-                // 하이퍼차지
+                // 하이퍼차지 (브롤러 미소유 시 하이퍼차지도 미소유)
                 result.hypercharge = {
                     name: adminBrawler.hypercharge?.name || '',
                     image: adminBrawler.hypercharge?.image || null,
-                    owned: adminBrawler.hypercharge?.name
-                        ? userHypercharges.includes(adminBrawler.hypercharge.name)
-                        : false
+                    owned: false
                 };
 
-                // 가젯 버피
+                // 가젯 버피 (브롤러 미소유 시 버피도 미소유)
                 result.gadgetBuff = {
                     name: adminBrawler.gadgetBuff?.name || '',
                     image: adminBrawler.gadgetBuff?.image || null,
-                    owned: adminBrawler.gadgetBuff?.name
-                        ? userBuffies.includes(adminBrawler.gadgetBuff.name)
-                        : false
+                    owned: false
                 };
 
-                // 스타파워 버피
+                // 스타파워 버피 (브롤러 미소유 시 버피도 미소유)
                 result.starPowerBuff = {
                     name: adminBrawler.starPowerBuff?.name || '',
                     image: adminBrawler.starPowerBuff?.image || null,
-                    owned: adminBrawler.starPowerBuff?.name
-                        ? userBuffies.includes(adminBrawler.starPowerBuff.name)
-                        : false
+                    owned: false
                 };
 
-                // 하이퍼차지 버피
+                // 하이퍼차지 버피 (브롤러 미소유 시 버피도 미소유)
                 result.hyperchargeBuff = {
                     name: adminBrawler.hyperchargeBuff?.name || '',
                     image: adminBrawler.hyperchargeBuff?.image || null,
-                    owned: adminBrawler.hyperchargeBuff?.name
-                        ? userBuffies.includes(adminBrawler.hyperchargeBuff.name)
-                        : false
+                    owned: false
                 };
 
                 // 기어 배열
