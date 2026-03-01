@@ -177,6 +177,42 @@ function deleteAllImages(brawlerDir, baseName) {
     });
 }
 
+// 이미지 파일명 변경 함수
+function renameImageFile(brawlerDir, oldName, newName) {
+    if (!fs.existsSync(brawlerDir) || !oldName || !newName || oldName === newName) return null;
+
+    const oldBaseName = oldName.replace(/[<>:"/\\|?*]/g, '');
+    const newBaseName = newName.replace(/[<>:"/\\|?*]/g, '');
+
+    if (oldBaseName === newBaseName) return null;
+
+    const extensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp'];
+    for (const ext of extensions) {
+        const oldPath = path.join(brawlerDir, `${oldBaseName}${ext}`);
+        if (fs.existsSync(oldPath)) {
+            const newPath = path.join(brawlerDir, `${newBaseName}${ext}`);
+            fs.renameSync(oldPath, newPath);
+            console.log(`Renamed image: ${oldPath} -> ${newPath}`);
+            return ext;
+        }
+    }
+    return null;
+}
+
+// 브롤러 폴더명 변경 함수
+function renameBrawlerFolder(oldName, newName) {
+    if (!oldName || !newName || oldName === newName) return;
+
+    const uploadsDir = path.join(__dirname, '../uploads/brawlers');
+    const oldDir = path.join(uploadsDir, oldName);
+    const newDir = path.join(uploadsDir, newName);
+
+    if (fs.existsSync(oldDir) && !fs.existsSync(newDir)) {
+        fs.renameSync(oldDir, newDir);
+        console.log(`Renamed brawler folder: ${oldDir} -> ${newDir}`);
+    }
+}
+
 // 브롤러 수정
 router.put('/brawlers/:id', upload.fields([
     { name: 'brawler_image', maxCount: 1 },
@@ -230,8 +266,40 @@ router.put('/brawlers/:id', upload.fields([
         // 기존 브롤러 데이터 가져오기
         const existingBrawler = brawlersData.brawlers[index];
 
-        // 브롤러 폴더 경로
+        // 브롤러 이름이 변경된 경우 폴더명 변경
+        if (existingBrawler.name !== name) {
+            renameBrawlerFolder(existingBrawler.name, name);
+        }
+
+        // 브롤러 폴더 경로 (이름 변경 후의 경로)
         const brawlerDir = path.join(__dirname, '../uploads/brawlers', name);
+
+        // 아이템 이름이 변경된 경우 이미지 파일명 변경 (새 이미지 업로드가 없는 경우에만)
+        if (!files.first_gadget_image && existingBrawler.firstGadget?.name !== first_gadget_name) {
+            renameImageFile(brawlerDir, existingBrawler.firstGadget?.name, first_gadget_name);
+        }
+        if (!files.second_gadget_image && existingBrawler.secondGadget?.name !== second_gadget_name) {
+            renameImageFile(brawlerDir, existingBrawler.secondGadget?.name, second_gadget_name);
+        }
+        if (!files.first_star_power_image && existingBrawler.firstStarPower?.name !== first_star_power_name) {
+            renameImageFile(brawlerDir, existingBrawler.firstStarPower?.name, first_star_power_name);
+        }
+        if (!files.second_star_power_image && existingBrawler.secondStarPower?.name !== second_star_power_name) {
+            renameImageFile(brawlerDir, existingBrawler.secondStarPower?.name, second_star_power_name);
+        }
+        if (!files.hypercharge_image && existingBrawler.hypercharge?.name !== hypercharge_name) {
+            renameImageFile(brawlerDir, existingBrawler.hypercharge?.name, hypercharge_name);
+        }
+        // 버피 이름 변경 (브롤러 이름 기반)
+        if (!files.gadget_buff_image && existingBrawler.name !== name && existingBrawler.gadgetBuff?.name) {
+            renameImageFile(brawlerDir, existingBrawler.gadgetBuff.name, `${name}'S GADGET BUFFIE`);
+        }
+        if (!files.star_power_buff_image && existingBrawler.name !== name && existingBrawler.starPowerBuff?.name) {
+            renameImageFile(brawlerDir, existingBrawler.starPowerBuff.name, `${name}'S STAR BUFFIE`);
+        }
+        if (!files.hypercharge_buff_image && existingBrawler.name !== name && existingBrawler.hyperchargeBuff?.name) {
+            renameImageFile(brawlerDir, existingBrawler.hyperchargeBuff.name, `${name}'S HYPER BUFFIE`);
+        }
 
         // 이미지 삭제 플래그 처리 (체크박스가 체크되면 'on' 값이 전달됨)
         if (delete_brawler_image === 'on') {
