@@ -99,8 +99,8 @@
       "id": 16000002,
       "name": "BULL",
       "firstGadget": {
-        "name": "T-BONE INJECTOR",
-        "image": "T-BONE INJECTOR.png"
+        "name": "T-BONE MISSILE",
+        "image": "T-BONE MISSILE.png"
       },
       "secondGadget": {
         "name": "STOMPER",
