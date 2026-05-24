@@ -2,3 +2,10 @@ node_modules/
 .env*
 .env.save
 .DS_Store
+
+# 런타임 데이터 — 서버가 원본이고 data-backup 브랜치로 백업함.
+# 코드 배포(git pull origin main)가 서버의 실시간 데이터를 덮어쓰지 않도록 추적에서 제외.
+/data/*
+!/data/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
