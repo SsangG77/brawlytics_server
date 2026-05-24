@@ -39,6 +39,13 @@ document.getElementById('brawlerForm').addEventListener('submit', async (e) => {
     const formData = new FormData(e.target);
     const editingId = document.getElementById('editingId').value;
 
+    // 신규 브롤러는 '🔄 신규 브롤러 동기화' 버튼으로만 추가됨 (Brawl Stars API 기준 id 보장).
+    // 폼은 기존 브롤러 수정 전용 — editingId 없는 제출은 차단.
+    if (!editingId) {
+        alert("⚠️ 신규 브롤러는 '🔄 신규 브롤러 동기화' 버튼으로 추가하세요.\n폼은 기존 브롤러 수정 전용입니다.");
+        return;
+    }
+
     // 필수 값 검증
     const name = formData.get('name');
     const brawlerImage = formData.get('brawler_image');
@@ -205,11 +212,12 @@ document.getElementById('brawlerForm').addEventListener('submit', async (e) => {
 // 수정 모드 취소
 function cancelEdit() {
     document.getElementById('editingId').value = '';
-    document.getElementById('formTitle').textContent = '브롤러 등록';
+    document.getElementById('formTitle').textContent = '브롤러 수정';
     document.getElementById('brawlerForm').reset();
     document.querySelectorAll('.preview').forEach(img => img.style.display = 'none');
     document.querySelectorAll('input[name="rare_gears"]').forEach(checkbox => checkbox.checked = true);
     document.getElementById('cancelBtn').style.display = 'none';
+    document.getElementById('formSection').style.display = 'none'; // 수정 전용: 평소엔 폼 숨김
 
     // 삭제 체크박스 숨기기 및 초기화
     document.querySelectorAll('.delete-checkbox').forEach(container => {
@@ -230,6 +238,9 @@ async function editBrawler(id) {
             alert('❌ 브롤러를 찾을 수 없습니다.');
             return;
         }
+
+        // 수정 모드: 폼 표시
+        document.getElementById('formSection').style.display = '';
 
         // 폼에 데이터 채우기
         document.getElementById('editingId').value = brawler.id;
@@ -567,6 +578,36 @@ async function deleteBrawler(id) {
         alert('❌ 삭제 실패: ' + error.message);
     }
 }
+
+// 신규 브롤러 동기화 (Brawl Stars API 기준 id로 추가 + 변경 감지)
+async function syncBrawlers() {
+    if (!confirm('Brawl Stars API와 비교해 신규 브롤러를 추가하고 변경분을 표시할까요?')) return;
+
+    const btn = document.getElementById('syncBtn');
+    if (btn) { btn.disabled = true; btn.textContent = '⏳ 동기화 중...'; }
+
+    try {
+        const response = await fetch('/admin/sync-brawlers');
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+            const addedNames = (result.added || []).map(b => b.name).join(', ') || '없음';
+            const changedNames = (result.changed || []).map(b => b.name).join(', ') || '없음';
+            alert(`✅ 동기화 완료!\n\n추가됨 (${result.addedCount}개): ${addedNames}\n변경 감지 (${result.changedCount}개): ${changedNames}`);
+            const activeTab = document.querySelector('.tab-btn.active');
+            loadBrawlers(activeTab ? activeTab.dataset.role : 'all');
+        } else {
+            alert('❌ 동기화 실패: ' + (result.error || '알 수 없는 오류'));
+        }
+    } catch (error) {
+        alert('❌ 동기화 실패: ' + error.message);
+    } finally {
+        if (btn) { btn.disabled = false; btn.textContent = '🔄 신규 브롤러 동기화'; }
+    }
+}
+
+// 동기화 버튼
+document.getElementById('syncBtn').addEventListener('click', syncBrawlers);
 
 // 탭 클릭 이벤트
 document.querySelectorAll('.tab-btn').forEach(btn => {
