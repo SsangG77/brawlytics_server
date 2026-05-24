@@ -433,6 +433,9 @@ async function loadBrawlers(filterRole = 'all') {
             brawlers = brawlers.filter(b => b.role === filterRole);
         }
 
+        // 검수 필요(신규/변경) 브롤러를 맨 위로 정렬 (나머지는 기존 순서 유지)
+        brawlers = brawlers.slice().sort((a, b) => (b.needsReview ? 1 : 0) - (a.needsReview ? 1 : 0));
+
         document.getElementById('brawlerCount').textContent = brawlers.length;
 
         const listContainer = document.getElementById('brawlerList');
