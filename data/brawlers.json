@@ -99,8 +99,8 @@
       "id": 16000002,
       "name": "BULL",
       "firstGadget": {
-        "name": "T-BONE INJECTOR",
-        "image": "T-BONE INJECTOR.png"
+        "name": "T-BONE MISSILE",
+        "image": "T-BONE MISSILE.png"
       },
       "secondGadget": {
         "name": "STOMPER",
@@ -119,16 +119,16 @@
         "image": "JAWS OF STEEL.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "BULL'S GADGET BUFFIE",
+        "image": "BULL'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "BULL'S STAR BUFFIE",
+        "image": "BULL'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "BULL'S HYPER BUFFIE",
+        "image": "BULL'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -140,7 +140,8 @@
       ],
       "rarity": "rare",
       "role": "tanker",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T11:47:26.987Z"
     },
     {
       "id": 16000003,
@@ -401,16 +402,16 @@
         "image": "HYPERBEARING.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "NITA'S GADGET BUFFIE",
+        "image": "NITA'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "NITA'S STAR BUFFIE",
+        "image": "NITA'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "NITA'S HYPER BUFFIE",
+        "image": "NITA'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -422,7 +423,8 @@
       ],
       "rarity": "rare",
       "role": "damageDealer",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T11:50:06.384Z"
     },
     {
       "id": 16000009,
@@ -569,8 +571,8 @@
       "id": 16000012,
       "name": "CROW",
       "firstGadget": {
-        "name": "DEFENSE BOOSTER",
-        "image": "DEFENSE BOOSTER.png"
+        "name": "INSTAPOISON",
+        "image": "INSTAPOISON.png"
       },
       "secondGadget": {
         "name": "SLOWING TOXIN",
@@ -589,16 +591,16 @@
         "image": "UTILITY KNIVES.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "CROW'S GADGET BUFFIE",
+        "image": "CROW'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "CROW'S STAR BUFFIE",
+        "image": "CROW'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "CROW'S HYPER BUFFIE",
+        "image": "CROW'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -610,7 +612,8 @@
       ],
       "rarity": "legendary",
       "role": "assassin",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T11:48:35.284Z"
     },
     {
       "id": 16000013,
@@ -683,16 +686,16 @@
         "image": "CATCH A BEAR.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "BO'S GADGET BUFFIE",
+        "image": "BO'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "BO'S STAR BUFFIE",
+        "image": "BO'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "BO'S HYPER BUFFIE",
+        "image": "BO'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -704,7 +707,8 @@
       ],
       "rarity": "epic",
       "role": "controller",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T11:49:41.923Z"
     },
     {
       "id": 16000015,
@@ -1080,7 +1084,8 @@
       ],
       "rarity": "superRare",
       "role": "thrower",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-14T02:22:56.687Z"
     },
     {
       "id": 16000023,
@@ -1106,16 +1111,16 @@
         "image": "LIMBO.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "LEON'S GADGET BUFFIE",
+        "image": "LEON'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "LEON'S STAR BUFFIE",
+        "image": "LEON'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "LEON'S HYPER BUFFIE",
+        "image": "LEON'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -1127,7 +1132,8 @@
       ],
       "rarity": "legendary",
       "role": "assassin",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T11:49:14.832Z"
     },
     {
       "id": 16000024,
@@ -1247,16 +1253,16 @@
         "image": "OUT OF BOUNDS.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "BIBI'S GADGET BUFFIE",
+        "image": "BIBI'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "BIBI'S STAR BUFFIE",
+        "image": "BIBI'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "BIBI'S HYPER BUFFIE",
+        "image": "BIBI'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -1268,7 +1274,8 @@
       ],
       "rarity": "epic",
       "role": "tanker",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T11:48:08.201Z"
     },
     {
       "id": 16000027,
@@ -1738,7 +1745,8 @@
       ],
       "rarity": "mythic",
       "role": "thrower",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-13T09:27:08.157Z"
     },
     {
       "id": 16000038,
@@ -1811,16 +1819,16 @@
         "image": "TEEN SPIRIT.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "COLETTE'S GADGET BUFFIE",
+        "image": "COLETTE'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "COLETTE'S STAR BUFFIE",
+        "image": "COLETTE'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "COLETTE'S HYPER BUFFIE",
+        "image": "COLETTE'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -1832,7 +1840,8 @@
       ],
       "rarity": "epic",
       "role": "damageDealer",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-05-08T03:43:50.991Z"
     },
     {
       "id": 16000040,
@@ -1926,7 +1935,8 @@
       ],
       "rarity": "mythic",
       "role": "controller",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T12:00:17.706Z"
     },
     {
       "id": 16000042,
@@ -1999,16 +2009,16 @@
         "image": "OUTBURST.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "EDGAR'S GADGET BUFFIE",
+        "image": "EDGAR'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "EDGAR'S STAR BUFFIE",
+        "image": "EDGAR'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "EDGAR'S HYPER BUFFIE",
+        "image": "EDGAR'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -2020,7 +2030,8 @@
       ],
       "rarity": "epic",
       "role": "assassin",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-05-08T03:43:19.781Z"
     },
     {
       "id": 16000044,
@@ -2329,16 +2340,16 @@
         "image": "TAX REBATE.png"
       },
       "gadgetBuff": {
-        "name": "",
-        "image": null
+        "name": "GRIFF'S GADGET BUFFIE",
+        "image": "GRIFF'S GADGET BUFFIE.png"
       },
       "starPowerBuff": {
-        "name": "",
-        "image": null
+        "name": "GRIFF'S STAR BUFFIE",
+        "image": "GRIFF'S STAR BUFFIE.png"
       },
       "hyperchargeBuff": {
-        "name": "",
-        "image": null
+        "name": "GRIFF'S HYPER BUFFIE",
+        "image": "GRIFF'S HYPER BUFFIE.png"
       },
       "rareGears": [
         "speed",
@@ -2350,7 +2361,8 @@
       ],
       "rarity": "epic",
       "role": "controller",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-05-08T03:44:19.093Z"
     },
     {
       "id": 16000051,
@@ -2632,7 +2644,8 @@
       ],
       "rarity": "mythic",
       "role": "marksmen",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T12:10:53.343Z"
     },
     {
       "id": 16000058,
@@ -2679,7 +2692,8 @@
       ],
       "rarity": "epic",
       "role": "marksmen",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T12:13:41.263Z"
     },
     {
       "id": 16000059,
@@ -3714,7 +3728,8 @@
       ],
       "rarity": "legendary",
       "role": "tanker",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "updatedAt": "2026-03-02T05:24:26.474Z"
     },
     {
       "id": 16000081,
@@ -4532,11 +4547,11 @@
       },
       "secondStarPower": {
         "name": "SLIP 'N SNIPE",
-        "image": "SLIP N SNIPE.png"
+        "image": "SLIP 'N SNIPE.png"
       },
       "hypercharge": {
-        "name": "",
-        "image": null
+        "name": "SECOND WAVE",
+        "image": "SECOND WAVE.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -4561,7 +4576,7 @@
       "rarity": "legendary",
       "role": "marksmen",
       "createdAt": "2025-12-26T13:20:38.140Z",
-      "updatedAt": "2025-12-27T12:03:01.880Z"
+      "updatedAt": "2026-04-02T02:44:27.473Z"
     },
     {
       "id": 16000100,
@@ -4630,8 +4645,8 @@
         "image": "PARASITISM.png"
       },
       "hypercharge": {
-        "name": "",
-        "image": null
+        "name": "YOU NEED A FRIEND",
+        "image": "YOU NEED A FRIEND.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -4656,7 +4671,149 @@
       "rarity": "mythic",
       "role": "supporter",
       "createdAt": "2025-12-26T13:20:38.140Z",
-      "updatedAt": "2026-01-21T13:35:28.995Z"
+      "updatedAt": "2026-04-02T02:43:32.361Z"
+    },
+    {
+      "id": 16583778,
+      "name": "SIRIUS",
+      "firstGadget": {
+        "name": "A STARR IS BORN",
+        "image": "A STARR IS BORN.png"
+      },
+      "secondGadget": {
+        "name": "MASTER OF SHADOWS",
+        "image": "MASTER OF SHADOWS.png"
+      },
+      "firstStarPower": {
+        "name": "DUSK RUNNERS",
+        "image": "DUSK RUNNERS.png"
+      },
+      "secondStarPower": {
+        "name": "THE DARKEST STARR",
+        "image": "THE DARKEST STARR.png"
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "ultraLegendary",
+      "role": "controller",
+      "createdAt": "2026-03-02T11:53:24.537Z"
+    },
+    {
+      "id": 16368266,
+      "name": "NAJIA",
+      "firstGadget": {
+        "name": "POISON PUDDLES",
+        "image": "POISON PUDDLES.png"
+      },
+      "secondGadget": {
+        "name": "NAJIA JAR",
+        "image": "NAJIA JAR.png"
+      },
+      "firstStarPower": {
+        "name": "POISONOUS PROTECTOR",
+        "image": "POISONOUS PROTECTOR.png"
+      },
+      "secondStarPower": {
+        "name": "VENOMOUS",
+        "image": "VENOMOUS.png"
+      },
+      "hypercharge": {
+        "name": "TWIN SNAKES",
+        "image": "TWIN SNAKES.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "damageDealer",
+      "createdAt": "2026-04-02T04:55:03.231Z",
+      "updatedAt": "2026-04-29T04:08:14.151Z"
+    },
+    {
+      "id": 16282953,
+      "name": "DAMIAN",
+      "firstGadget": {
+        "name": "SPIRITUAL HEALING",
+        "image": "SPIRITUAL HEALING.png"
+      },
+      "secondGadget": {
+        "name": "WALL OF SOUND",
+        "image": "WALL OF SOUND.png"
+      },
+      "firstStarPower": {
+        "name": "CROWDKILL",
+        "image": "CROWDKILL.png"
+      },
+      "secondStarPower": {
+        "name": "VULGAR DISPLAY OF PUNCH",
+        "image": "VULGAR DISPLAY OF PUNCH.png"
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "tanker",
+      "createdAt": "2026-04-29T04:13:06.261Z"
     }
   ]
 }
