@@ -434,10 +434,26 @@ async function loadBrawlers(filterRole = 'all') {
 
         brawlers.forEach(brawler => {
             const card = document.createElement('div');
-            card.className = 'brawler-card';
+            card.className = brawler.needsReview ? 'brawler-card needs-review' : 'brawler-card';
 
             const brawlerFolder = `/uploads/brawlers/${brawler.name}`;
             const brawlerImageUrl = `${brawlerFolder}/${brawler.name}.png`;
+
+            // 검수 필요(신규/변경) 안내 배너
+            let reviewBannerHTML = '';
+            if (brawler.needsReview) {
+                const info = brawler.reviewInfo || {};
+                const typeLabel = info.type === 'new' ? '🆕 신규 추가' : '🔄 변경 감지';
+                const changesHTML = (info.changes || [])
+                    .map(c => `<li>${c}</li>`)
+                    .join('');
+                reviewBannerHTML = `
+                    <div class="review-banner">
+                        <strong>${typeLabel} — 확인 필요</strong>
+                        ${changesHTML ? `<ul>${changesHTML}</ul>` : ''}
+                    </div>
+                `;
+            }
 
             // 아이템 HTML 생성 함수
             const createItemHTML = (item, itemType) => {
@@ -456,6 +472,7 @@ async function loadBrawlers(filterRole = 'all') {
             };
 
             card.innerHTML = `
+                ${reviewBannerHTML}
                 <div class="brawler-header">
                     <img src="${brawlerImageUrl}" alt="${brawler.name}" class="brawler-main-image"
                          onerror="this.src='${brawlerFolder}/${brawler.name}.jpg'; this.onerror=null;">
@@ -496,6 +513,7 @@ async function loadBrawlers(filterRole = 'all') {
                 </div>
 
                 <div class="button-group">
+                    ${brawler.needsReview ? `<button class="btn-confirm" onclick="confirmReview(${brawler.id})">✅ 확인</button>` : ''}
                     <button class="btn-edit" onclick="editBrawler(${brawler.id})">✏️ 수정</button>
                     <button class="btn-delete" onclick="deleteBrawler(${brawler.id})">🗑️ 삭제</button>
                 </div>
@@ -506,6 +524,27 @@ async function loadBrawlers(filterRole = 'all') {
     } catch (error) {
         console.error('Error loading brawlers:', error);
         alert('브롤러 목록 로드 실패');
+    }
+}
+
+// 브롤러 검수 확인 (배경 강조 해제)
+async function confirmReview(id) {
+    if (!confirm('이 브롤러의 변경/추가 내용을 확인하셨습니까?\n확인하면 배경 강조가 해제됩니다.')) return;
+
+    try {
+        const response = await fetch(`/admin/brawlers/${id}/confirm-review`, {
+            method: 'POST'
+        });
+
+        if (response.ok) {
+            alert('✅ 확인 처리 완료!');
+            const activeTab = document.querySelector('.tab-btn.active');
+            loadBrawlers(activeTab ? activeTab.dataset.role : 'all');
+        } else {
+            alert('❌ 확인 처리 실패');
+        }
+    } catch (error) {
+        alert('❌ 확인 처리 실패: ' + error.message);
     }
 }
 

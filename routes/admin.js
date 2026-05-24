@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { initializeBrawlersTable } = require('../services/brawlerService');
+const { syncBrawlersJson } = require('../services/brawlerSyncService');
 const upload = require('../middleware/upload');
 const fs = require('fs');
 const path = require('path');
@@ -51,6 +52,51 @@ router.get('/save', async (req, res) => {
     } catch (error) {
         console.error('Error manually triggering brawlers table initialization:', error);
         res.status(500).json({ error: 'Failed to trigger brawlers table initialization.' });
+    }
+});
+
+// brawlers.json 수동 동기화 (월 1회 자동 실행과 동일 로직, 즉시 실행용)
+router.get('/sync-brawlers', async (req, res) => {
+    console.log('Manually triggering brawlers.json sync...');
+    try {
+        const result = await syncBrawlersJson();
+        res.status(200).json({
+            success: true,
+            addedCount: result.added.length,
+            changedCount: result.changed.length,
+            added: result.added,
+            changed: result.changed
+        });
+    } catch (error) {
+        console.error('Error syncing brawlers.json:', error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// 브롤러 검수 확인 처리 ('확인' 버튼) — 배경 강조(needsReview) 해제
+router.post('/brawlers/:id/confirm-review', (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+
+        if (!fs.existsSync(dataPath)) {
+            return res.status(404).json({ error: 'No brawlers found' });
+        }
+
+        const brawlersData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+        const index = brawlersData.brawlers.findIndex(b => b.id === id);
+        if (index === -1) {
+            return res.status(404).json({ error: 'Brawler not found' });
+        }
+
+        brawlersData.brawlers[index].needsReview = false;
+        delete brawlersData.brawlers[index].reviewInfo;
+
+        fs.writeFileSync(dataPath, JSON.stringify(brawlersData, null, 2), 'utf-8');
+
+        res.status(200).json({ success: true });
+    } catch (error) {
+        console.error('Error confirming brawler review:', error);
+        res.status(500).json({ error: error.message });
     }
 });
 
@@ -441,6 +487,14 @@ router.put('/brawlers/:id', upload.fields([
             createdAt: existingBrawler.createdAt || existingBrawler.created_at,
             updatedAt: new Date().toISOString()
         };
+
+        // 검수 플래그 보존: 배경 강조는 '확인' 버튼으로만 해제되므로 수정 시에도 유지
+        if (existingBrawler.needsReview) {
+            updatedBrawler.needsReview = true;
+            if (existingBrawler.reviewInfo) {
+                updatedBrawler.reviewInfo = existingBrawler.reviewInfo;
+            }
+        }
 
         // 업데이트
         brawlersData.brawlers[index] = updatedBrawler;

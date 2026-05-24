@@ -420,3 +420,50 @@ h3 {
     font-size: 13px;
     font-weight: 600;
 }
+
+/* 검수 필요(신규/변경) 브롤러 강조 */
+.brawler-card.needs-review {
+    background: linear-gradient(135deg, #fff8e1 0%, #ffe9b3 100%);
+    border: 2px solid #f39c12;
+    box-shadow: 0 5px 20px rgba(243, 156, 18, 0.35);
+}
+
+.brawler-card.needs-review:hover {
+    box-shadow: 0 10px 28px rgba(243, 156, 18, 0.5);
+}
+
+.review-banner {
+    background: #fff3cd;
+    border: 1px solid #f39c12;
+    border-left: 5px solid #f39c12;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 15px;
+    color: #8a6d1d;
+}
+
+.review-banner strong {
+    color: #b9770e;
+    font-size: 0.95em;
+}
+
+.review-banner ul {
+    margin: 6px 0 0 18px;
+    font-size: 0.85em;
+    color: #7a5e1a;
+}
+
+.btn-confirm {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn-confirm:hover {
+    background: #d98a0b;
+}
