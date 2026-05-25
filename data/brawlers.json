@@ -4627,7 +4627,7 @@
     },
     {
       "id": 16000101,
-      "name": "GLOWBERT",
+      "name": "GLOWY",
       "firstGadget": {
         "name": "SLIPPERY SAVIOR",
         "image": "SLIPPERY SAVIOR.png"
@@ -4671,10 +4671,11 @@
       "rarity": "mythic",
       "role": "supporter",
       "createdAt": "2025-12-26T13:20:38.140Z",
-      "updatedAt": "2026-04-02T02:43:32.361Z"
+      "updatedAt": "2026-05-24T12:01:46.734Z",
+      "needsReview": false
     },
     {
-      "id": 16583778,
+      "id": 16000102,
       "name": "SIRIUS",
       "firstGadget": {
         "name": "A STARR IS BORN",
@@ -4693,8 +4694,8 @@
         "image": "THE DARKEST STARR.png"
       },
       "hypercharge": {
-        "name": "",
-        "image": null
+        "name": "UNLIMITED POWER!",
+        "image": "UNLIMITED POWER!.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -4718,10 +4719,12 @@
       ],
       "rarity": "ultraLegendary",
       "role": "controller",
-      "createdAt": "2026-03-02T11:53:24.537Z"
+      "createdAt": "2026-03-02T11:53:24.537Z",
+      "updatedAt": "2026-05-24T12:06:47.925Z",
+      "needsReview": false
     },
     {
-      "id": 16368266,
+      "id": 16000103,
       "name": "NAJIA",
       "firstGadget": {
         "name": "POISON PUDDLES",
@@ -4766,10 +4769,11 @@
       "rarity": "mythic",
       "role": "damageDealer",
       "createdAt": "2026-04-02T04:55:03.231Z",
-      "updatedAt": "2026-04-29T04:08:14.151Z"
+      "updatedAt": "2026-04-29T04:08:14.151Z",
+      "needsReview": false
     },
     {
-      "id": 16282953,
+      "id": 16000104,
       "name": "DAMIAN",
       "firstGadget": {
         "name": "SPIRITUAL HEALING",
@@ -4786,6 +4790,104 @@
       "secondStarPower": {
         "name": "VULGAR DISPLAY OF PUNCH",
         "image": "VULGAR DISPLAY OF PUNCH.png"
+      },
+      "hypercharge": {
+        "name": "JUMP IN THE FIRE",
+        "image": "JUMP IN THE FIRE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "tanker",
+      "createdAt": "2026-04-29T04:13:06.261Z",
+      "updatedAt": "2026-05-24T12:11:50.435Z",
+      "needsReview": false
+    },
+    {
+      "id": 16000105,
+      "name": "STARR NOVA",
+      "firstGadget": {
+        "name": "FLOATY TIME",
+        "image": "FLOATY TIME.png"
+      },
+      "secondGadget": {
+        "name": "SHINING STARR OF FRIENDSHIP AND JUSTICE",
+        "image": "SHINING STARR OF FRIENDSHIP AND JUSTICE.png"
+      },
+      "firstStarPower": {
+        "name": "POWER LEVEL: MAXIMUM",
+        "image": "POWER LEVEL MAXIMUM.png"
+      },
+      "secondStarPower": {
+        "name": "MYSTICAL STARR TECHNIQUE",
+        "image": "MYSTICAL STARR TECHNIQUE.png"
+      },
+      "hypercharge": {
+        "name": "STARR NOVA:HYPERCHARGE",
+        "image": "STARR NOVAHYPERCHARGE.png"
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "mythic",
+      "role": "assassin",
+      "createdAt": "2026-05-24T08:38:55.377Z",
+      "updatedAt": "2026-05-24T12:42:05.529Z",
+      "needsReview": false
+    },
+    {
+      "id": 16000106,
+      "name": "BOLT",
+      "firstGadget": {
+        "name": "OIL CHANGE",
+        "image": null
+      },
+      "secondGadget": {
+        "name": "BOUNCY BALL",
+        "image": null
+      },
+      "firstStarPower": {
+        "name": "TOSS UP",
+        "image": null
+      },
+      "secondStarPower": {
+        "name": "UNSTOPPABALL",
+        "image": null
       },
       "hypercharge": {
         "name": "",
@@ -4811,9 +4913,18 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "mythic",
-      "role": "tanker",
-      "createdAt": "2026-04-29T04:13:06.261Z"
+      "rarity": "",
+      "role": "",
+      "createdAt": "2026-05-24T08:38:55.377Z",
+      "updatedAt": "2026-05-24T08:38:55.377Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "new",
+        "changes": [
+          "신규 브롤러 추가"
+        ],
+        "detectedAt": "2026-05-24T08:38:55.377Z"
+      }
     }
   ]
 }
