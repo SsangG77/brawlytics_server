@@ -4875,19 +4875,19 @@
       "name": "BOLT",
       "firstGadget": {
         "name": "OIL CHANGE",
-        "image": null
+        "image": "OIL CHANGE.png"
       },
       "secondGadget": {
         "name": "BOUNCY BALL",
-        "image": null
+        "image": "BOUNCY BALL.png"
       },
       "firstStarPower": {
         "name": "TOSS UP",
-        "image": null
+        "image": "TOSS UP.png"
       },
       "secondStarPower": {
         "name": "UNSTOPPABALL",
-        "image": null
+        "image": "UNSTOPPABALL.png"
       },
       "hypercharge": {
         "name": "",
@@ -4913,18 +4913,11 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "",
-      "role": "",
+      "rarity": "epic",
+      "role": "tanker",
       "createdAt": "2026-05-24T08:38:55.377Z",
-      "updatedAt": "2026-05-24T08:38:55.377Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "new",
-        "changes": [
-          "신규 브롤러 추가"
-        ],
-        "detectedAt": "2026-05-24T08:38:55.377Z"
-      }
+      "updatedAt": "2026-06-17T02:23:00.631Z",
+      "needsReview": false
     }
   ]
 }
