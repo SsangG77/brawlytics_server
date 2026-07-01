@@ -4918,6 +4918,118 @@
       "createdAt": "2026-05-24T08:38:55.377Z",
       "updatedAt": "2026-06-17T02:23:00.631Z",
       "needsReview": false
+    },
+    {
+      "id": 16000107,
+      "name": "NORI",
+      "firstGadget": {
+        "name": "SUSHI SNACK",
+        "image": null
+      },
+      "secondGadget": {
+        "name": "GONNA NEED A BIGGER NET",
+        "image": null
+      },
+      "firstStarPower": {
+        "name": "BIG HAUL",
+        "image": null
+      },
+      "secondStarPower": {
+        "name": "HIS MOTHER’S SON",
+        "image": null
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "",
+      "role": "",
+      "createdAt": "2026-06-30T15:00:00.075Z",
+      "updatedAt": "2026-06-30T15:00:00.075Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "new",
+        "changes": [
+          "신규 브롤러 추가"
+        ],
+        "detectedAt": "2026-06-30T15:00:00.075Z"
+      }
+    },
+    {
+      "id": 16000108,
+      "name": "WENDY",
+      "firstGadget": {
+        "name": "WIND-POWERED",
+        "image": null
+      },
+      "secondGadget": {
+        "name": "GREEN GRENADE",
+        "image": null
+      },
+      "firstStarPower": {
+        "name": "SLOWING SHIELD",
+        "image": null
+      },
+      "secondStarPower": {
+        "name": "SOLAR SHIELD",
+        "image": null
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "",
+      "role": "",
+      "createdAt": "2026-06-30T15:00:00.075Z",
+      "updatedAt": "2026-06-30T15:00:00.075Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "new",
+        "changes": [
+          "신규 브롤러 추가"
+        ],
+        "detectedAt": "2026-06-30T15:00:00.075Z"
+      }
     }
   ]
 }
