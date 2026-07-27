@@ -4890,8 +4890,8 @@
         "image": "UNSTOPPABALL.png"
       },
       "hypercharge": {
-        "name": "",
-        "image": null
+        "name": "BOWLING BOLT",
+        "image": "BOWLING BOLT.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -4916,7 +4916,7 @@
       "rarity": "epic",
       "role": "tanker",
       "createdAt": "2026-05-24T08:38:55.377Z",
-      "updatedAt": "2026-06-17T02:23:00.631Z",
+      "updatedAt": "2026-07-26T07:43:43.693Z",
       "needsReview": false
     },
     {
@@ -4924,19 +4924,19 @@
       "name": "NORI",
       "firstGadget": {
         "name": "SUSHI SNACK",
-        "image": null
+        "image": "SUSHI SNACK.png"
       },
       "secondGadget": {
         "name": "GONNA NEED A BIGGER NET",
-        "image": null
+        "image": "GONNA NEED A BIGGER NET.png"
       },
       "firstStarPower": {
         "name": "BIG HAUL",
-        "image": null
+        "image": "BIG HAUL.png"
       },
       "secondStarPower": {
         "name": "HIS MOTHER’S SON",
-        "image": null
+        "image": "HIS MOTHER’S SON.png"
       },
       "hypercharge": {
         "name": "",
@@ -4962,37 +4962,30 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "",
-      "role": "",
+      "rarity": "legendary",
+      "role": "assassin",
       "createdAt": "2026-06-30T15:00:00.075Z",
-      "updatedAt": "2026-06-30T15:00:00.075Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "new",
-        "changes": [
-          "신규 브롤러 추가"
-        ],
-        "detectedAt": "2026-06-30T15:00:00.075Z"
-      }
+      "updatedAt": "2026-07-26T07:20:16.288Z",
+      "needsReview": false
     },
     {
       "id": 16000108,
       "name": "WENDY",
       "firstGadget": {
         "name": "WIND-POWERED",
-        "image": null
+        "image": "WIND-POWERED.png"
       },
       "secondGadget": {
         "name": "GREEN GRENADE",
-        "image": null
+        "image": "GREEN GRENADE.png"
       },
       "firstStarPower": {
         "name": "SLOWING SHIELD",
-        "image": null
+        "image": "SLOWING SHIELD.png"
       },
       "secondStarPower": {
         "name": "SOLAR SHIELD",
-        "image": null
+        "image": "SOLAR SHIELD.png"
       },
       "hypercharge": {
         "name": "",
@@ -5018,18 +5011,11 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "",
-      "role": "",
+      "rarity": "mythic",
+      "role": "supporter",
       "createdAt": "2026-06-30T15:00:00.075Z",
-      "updatedAt": "2026-06-30T15:00:00.075Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "new",
-        "changes": [
-          "신규 브롤러 추가"
-        ],
-        "detectedAt": "2026-06-30T15:00:00.075Z"
-      }
+      "updatedAt": "2026-07-26T07:41:13.420Z",
+      "needsReview": false
     }
   ]
 }
