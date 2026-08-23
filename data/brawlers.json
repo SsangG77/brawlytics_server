@@ -4841,8 +4841,8 @@
         "image": "MYSTICAL STARR TECHNIQUE.png"
       },
       "hypercharge": {
-        "name": "STARR NOVA:HYPERCHARGE",
-        "image": "STARR NOVAHYPERCHARGE.png"
+        "name": "STARR NOVA: THE HYPERCHARGE",
+        "image": "STARR NOVA THE HYPERCHARGE.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -4867,15 +4867,8 @@
       "rarity": "mythic",
       "role": "assassin",
       "createdAt": "2026-05-24T08:38:55.377Z",
-      "updatedAt": "2026-05-24T12:42:05.529Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "changed",
-        "changes": [
-          "하이퍼차지 변경: STARR NOVA:HYPERCHARGE → STARR NOVA: THE HYPERCHARGE"
-        ],
-        "detectedAt": "2026-07-31T15:00:00.093Z"
-      }
+      "updatedAt": "2026-08-22T10:59:38.995Z",
+      "needsReview": false
     },
     {
       "id": 16000106,
