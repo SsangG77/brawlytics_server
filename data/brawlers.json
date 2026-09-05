@@ -235,7 +235,15 @@
       ],
       "rarity": "superRare",
       "role": "damageDealer",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "changed",
+        "changes": [
+          "새 가젯: MULTIBALL"
+        ],
+        "detectedAt": "2026-09-04T23:39:49.817Z"
+      }
     },
     {
       "id": 16000005,
@@ -2456,7 +2464,15 @@
       ],
       "rarity": "legendary",
       "role": "tanker",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "changed",
+        "changes": [
+          "새 가젯: REPURPOSE"
+        ],
+        "detectedAt": "2026-09-04T23:39:49.817Z"
+      }
     },
     {
       "id": 16000053,
@@ -2834,7 +2850,15 @@
       ],
       "rarity": "superRare",
       "role": "supporter",
-      "createdAt": "2025-12-26T13:20:38.140Z"
+      "createdAt": "2025-12-26T13:20:38.140Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "changed",
+        "changes": [
+          "새 가젯: KNOCKBACK SPIRIT"
+        ],
+        "detectedAt": "2026-09-04T23:39:49.817Z"
+      }
     },
     {
       "id": 16000062,
@@ -4966,7 +4990,14 @@
       "role": "assassin",
       "createdAt": "2026-06-30T15:00:00.075Z",
       "updatedAt": "2026-07-26T07:20:16.288Z",
-      "needsReview": false
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "changed",
+        "changes": [
+          "새 스타파워: HIS MOTHER'S SON"
+        ],
+        "detectedAt": "2026-09-04T23:39:49.817Z"
+      }
     },
     {
       "id": 16000108,
@@ -5016,6 +5047,118 @@
       "createdAt": "2026-06-30T15:00:00.075Z",
       "updatedAt": "2026-07-26T07:41:13.420Z",
       "needsReview": false
+    },
+    {
+      "id": 16000109,
+      "name": "COSMO",
+      "firstGadget": {
+        "name": "PLANETARY PUSHBACK",
+        "image": null
+      },
+      "secondGadget": {
+        "name": "TELESCOPE TRAP",
+        "image": null
+      },
+      "firstStarPower": {
+        "name": "PRECESSION",
+        "image": null
+      },
+      "secondStarPower": {
+        "name": "AMMO ATTRACTOR",
+        "image": null
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "",
+      "role": "",
+      "createdAt": "2026-09-04T23:39:49.817Z",
+      "updatedAt": "2026-09-04T23:39:49.817Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "new",
+        "changes": [
+          "신규 브롤러 추가"
+        ],
+        "detectedAt": "2026-09-04T23:39:49.817Z"
+      }
+    },
+    {
+      "id": 16000110,
+      "name": "VINCE",
+      "firstGadget": {
+        "name": "HOT COFFEE",
+        "image": null
+      },
+      "secondGadget": {
+        "name": "METAMOTHOSIS",
+        "image": null
+      },
+      "firstStarPower": {
+        "name": "COME TO PAPA",
+        "image": null
+      },
+      "secondStarPower": {
+        "name": "BUG BANDAGE",
+        "image": null
+      },
+      "hypercharge": {
+        "name": "",
+        "image": null
+      },
+      "gadgetBuff": {
+        "name": "",
+        "image": null
+      },
+      "starPowerBuff": {
+        "name": "",
+        "image": null
+      },
+      "hyperchargeBuff": {
+        "name": "",
+        "image": null
+      },
+      "rareGears": [
+        "speed",
+        "health",
+        "damage",
+        "vision",
+        "shield",
+        "gadgetCooldown"
+      ],
+      "rarity": "",
+      "role": "",
+      "createdAt": "2026-09-04T23:39:49.817Z",
+      "updatedAt": "2026-09-04T23:39:49.817Z",
+      "needsReview": true,
+      "reviewInfo": {
+        "type": "new",
+        "changes": [
+          "신규 브롤러 추가"
+        ],
+        "detectedAt": "2026-09-04T23:39:49.817Z"
+      }
     }
   ]
 }
