@@ -198,8 +198,8 @@
         "image": "MULTIBALL LAUNCHER.png"
       },
       "secondGadget": {
-        "name": "BOUNCY CASTLE",
-        "image": "BOUNCY CASTLE.png"
+        "name": "MULTIBALL",
+        "image": "MULTIBALL.png"
       },
       "firstStarPower": {
         "name": "SUPER BOUNCY",
@@ -236,14 +236,8 @@
       "rarity": "superRare",
       "role": "damageDealer",
       "createdAt": "2025-12-26T13:20:38.140Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "changed",
-        "changes": [
-          "새 가젯: MULTIBALL"
-        ],
-        "detectedAt": "2026-09-30T15:00:00.164Z"
-      }
+      "updatedAt": "2026-10-23T08:35:40.364Z",
+      "needsReview": false
     },
     {
       "id": 16000005,
@@ -2427,8 +2421,8 @@
         "image": "JOLTING VOLTS.png"
       },
       "secondGadget": {
-        "name": "TOOLBOX",
-        "image": "TOOLBOX.png"
+        "name": "REPURPOSE",
+        "image": "REPURPOSE.png"
       },
       "firstStarPower": {
         "name": "FORCE FIELD",
@@ -2465,14 +2459,8 @@
       "rarity": "legendary",
       "role": "tanker",
       "createdAt": "2025-12-26T13:20:38.140Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "changed",
-        "changes": [
-          "새 가젯: REPURPOSE"
-        ],
-        "detectedAt": "2026-09-30T15:00:00.164Z"
-      }
+      "updatedAt": "2026-10-23T08:37:28.563Z",
+      "needsReview": false
     },
     {
       "id": 16000053,
@@ -2813,8 +2801,8 @@
         "image": "KOOKY POPPER.png"
       },
       "secondGadget": {
-        "name": "SOUL SWITCHER",
-        "image": "SOUL SWITCHER.png"
+        "name": "KNOCKBACK SPIRIT",
+        "image": "KNOCKBACK SPIRIT.png"
       },
       "firstStarPower": {
         "name": "HEALTH BONANZA",
@@ -2851,14 +2839,8 @@
       "rarity": "superRare",
       "role": "supporter",
       "createdAt": "2025-12-26T13:20:38.140Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "changed",
-        "changes": [
-          "새 가젯: KNOCKBACK SPIRIT"
-        ],
-        "detectedAt": "2026-09-30T15:00:00.164Z"
-      }
+      "updatedAt": "2026-10-23T08:39:21.096Z",
+      "needsReview": false
     },
     {
       "id": 16000062,
@@ -4959,12 +4941,12 @@
         "image": "BIG HAUL.png"
       },
       "secondStarPower": {
-        "name": "HIS MOTHER’S SON",
-        "image": "HIS MOTHER’S SON.png"
+        "name": "HIS MOTHER'S SON",
+        "image": "HIS MOTHER'S SON.png"
       },
       "hypercharge": {
         "name": "MASTER FISHERMAN",
-        "image": null
+        "image": "MASTER FISHERMAN.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -4989,16 +4971,8 @@
       "rarity": "legendary",
       "role": "assassin",
       "createdAt": "2026-06-30T15:00:00.075Z",
-      "updatedAt": "2026-07-26T07:20:16.288Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "changed",
-        "changes": [
-          "새 스타파워: HIS MOTHER'S SON",
-          "하이퍼차지 추가: MASTER FISHERMAN"
-        ],
-        "detectedAt": "2026-09-30T15:00:00.164Z"
-      }
+      "updatedAt": "2026-10-23T08:42:52.986Z",
+      "needsReview": false
     },
     {
       "id": 16000108,
@@ -5021,7 +4995,7 @@
       },
       "hypercharge": {
         "name": "GREEN ENERGY",
-        "image": null
+        "image": "GREEN ENERGY.png"
       },
       "gadgetBuff": {
         "name": "",
@@ -5046,34 +5020,27 @@
       "rarity": "mythic",
       "role": "supporter",
       "createdAt": "2026-06-30T15:00:00.075Z",
-      "updatedAt": "2026-07-26T07:41:13.420Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "changed",
-        "changes": [
-          "하이퍼차지 추가: GREEN ENERGY"
-        ],
-        "detectedAt": "2026-09-30T15:00:00.164Z"
-      }
+      "updatedAt": "2026-10-23T08:43:58.313Z",
+      "needsReview": false
     },
     {
       "id": 16000109,
       "name": "COSMO",
       "firstGadget": {
         "name": "PLANETARY PUSHBACK",
-        "image": null
+        "image": "PLANETARY PUSHBACK.png"
       },
       "secondGadget": {
         "name": "TELESCOPE TRAP",
-        "image": null
+        "image": "TELESCOPE TRAP.png"
       },
       "firstStarPower": {
         "name": "PRECESSION",
-        "image": null
+        "image": "PRECESSION.png"
       },
       "secondStarPower": {
         "name": "AMMO ATTRACTOR",
-        "image": null
+        "image": "AMMO ATTRACTOR.png"
       },
       "hypercharge": {
         "name": "",
@@ -5099,37 +5066,30 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "",
-      "role": "",
+      "rarity": "mythic",
+      "role": "controller",
       "createdAt": "2026-09-04T23:39:49.817Z",
-      "updatedAt": "2026-09-04T23:39:49.817Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "new",
-        "changes": [
-          "신규 브롤러 추가"
-        ],
-        "detectedAt": "2026-09-04T23:39:49.817Z"
-      }
+      "updatedAt": "2026-10-23T08:50:12.271Z",
+      "needsReview": false
     },
     {
       "id": 16000110,
       "name": "VINCE",
       "firstGadget": {
         "name": "HOT COFFEE",
-        "image": null
+        "image": "HOT COFFEE.png"
       },
       "secondGadget": {
         "name": "METAMOTHOSIS",
-        "image": null
+        "image": "METAMOTHOSIS.png"
       },
       "firstStarPower": {
         "name": "COME TO PAPA",
-        "image": null
+        "image": "COME TO PAPA.png"
       },
       "secondStarPower": {
         "name": "BUG BANDAGE",
-        "image": null
+        "image": "BUG BANDAGE.png"
       },
       "hypercharge": {
         "name": "",
@@ -5155,18 +5115,11 @@
         "shield",
         "gadgetCooldown"
       ],
-      "rarity": "",
-      "role": "",
+      "rarity": "mythic",
+      "role": "damageDealer",
       "createdAt": "2026-09-04T23:39:49.817Z",
-      "updatedAt": "2026-09-04T23:39:49.817Z",
-      "needsReview": true,
-      "reviewInfo": {
-        "type": "new",
-        "changes": [
-          "신규 브롤러 추가"
-        ],
-        "detectedAt": "2026-09-04T23:39:49.817Z"
-      }
+      "updatedAt": "2026-10-23T08:55:45.186Z",
+      "needsReview": false
     }
   ]
 }
